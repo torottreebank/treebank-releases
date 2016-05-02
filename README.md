@@ -32,9 +32,11 @@ The following texts are included in this release of the treebank:
   Novgorod’s treaty with Grand Prince Jaroslav Jaroslavich, 1266 |Old Russian       | NovgorodJaroslav | 423 tokens
   Russkaja pravda                                     | Old Russian                 | rusprav     | 4187 tokens
   Statute of Prince Vladimir                          | Old Russian                 | ust-vlad    | 496 tokens
-  The 1229 Treaty between Smolensk, Riga and Gotland (version A) | Old Russian      | RigaGoth    | 301 tokens
+  The 1229 Treaty between Smolensk, Riga and Gotland (version A) | Old Russian      | RigaGoth    | 1421 tokens
+  The Kiev Chronicle, Codex Hypatianus                | Old Russian   				| KievHyp     | 549 tokens
   The Life of Avvakum                                 | Old Russian                 | avv         | 22877 tokens 
   The Primary Chronicle, Codex Laurentianus           | Old Russian                 | lav         | 56683 tokens
+  The Tale of Dracula                                 | Old Russian                 | drac        | 2487 tokens
   The Tale of Luka Kolocskij                          | Old Russian                 | luk-koloc   | 907 tokens
   The taking of Pskov                                 | Old Russian                 | pskov       | 2363 tokens
   The tale of the fall of Constantinople              | Old Russian                 | const       | 9255 tokens
