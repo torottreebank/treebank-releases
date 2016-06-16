@@ -23,19 +23,21 @@ The following texts are included in this release of the treebank:
   Codex Suprasliensis                            	  | Old Church Slavonic         | supr        | 67196 tokens
   Codex Zographensis                                  | Old Church Slavonic			| zogr        | 1091 tokens
   Afanasij Nikitin’s journey beyond three seas        | Old Russian                 | afnik       | 6842 tokens
-  Charter of Prince Jurij Svjatoslavich of Smolensk on the alliance with Poland and Lithuania, 1386 | Old Russian | SmolPolLit | 342 tokens
+  Charter of Prince Jurij Svjatoslavich of Smolensk on the alliance with Poland and Lithuania, 1386 | Old Russian | smol-pol-lit | 342 tokens
   Domostroj                                           | Old Russian                 | domo        | 23461 tokens
   Life of Sergij of Radonezh                          | Old Russian                 | sergrad     | 20308 tokens
-  Missive from Prince Ivan of Pskov, 1463–1465        | Old Russian                 | PskovIvan   | 335 tokens
-  Missive from the Archbishop of Riga to the Prince of Smolensk | Old Russian       | RigSmol1281 | 171 tokens
+  Missive from Prince Ivan of Pskov, 1463–1465        | Old Russian                 | pskov-ivan   | 335 tokens
+  Missive from the Archbishop of Riga to the Prince of Smolensk | Old Russian       | rig-smol1281 | 171 tokens
   Mstislav’s letter                                   |Old Russian                  | mst   	  | 158 tokens
-  Novgorod’s treaty with Grand Prince Jaroslav Jaroslavich, 1266 |Old Russian       | NovgorodJaroslav | 423 tokens
+  Novgorod’s treaty with Grand Prince Jaroslav Jaroslavich, 1266 |Old Russian       | novgorod-jaroslav | 423 tokens
   Russkaja pravda                                     | Old Russian                 | rusprav     | 4187 tokens
   Statute of Prince Vladimir                          | Old Russian                 | ust-vlad    | 496 tokens
-  The 1229 Treaty between Smolensk, Riga and Gotland (version A) | Old Russian      | RigaGoth    | 1421 tokens
-  The Kiev Chronicle, Codex Hypatianus                | Old Russian   				| KievHyp     | 549 tokens
+  The 1229 Treaty between Smolensk, Riga and Gotland (version A) | Old Russian      | riga-goth   | 1421 tokens
+  The First Novgorod Chronicle, Synodal manuscript    | Old Russian                 | nov-sin     | 927  tokens
+  The Kiev Chronicle, Codex Hypatianus                | Old Russian   				| kiev-hyp     | 549 tokens
   The Life of Avvakum                                 | Old Russian                 | avv         | 22877 tokens 
   The Primary Chronicle, Codex Laurentianus           | Old Russian                 | lav         | 56683 tokens
+  The Suzdal Chronicle, Codex Laurentianus            | Old Russian                 | suz-lav     | 1480 tokens 
   The Tale of Dracula                                 | Old Russian                 | drac        | 2487 tokens
   The Tale of Luka Kolocskij                          | Old Russian                 | luk-koloc   | 907 tokens
   The taking of Pskov                                 | Old Russian                 | pskov       | 2363 tokens
