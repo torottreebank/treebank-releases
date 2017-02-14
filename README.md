@@ -45,7 +45,7 @@ The following texts are included in this release of the treebank:
   The tale of the fall of Constantinople              | Old Russian                 | const       | 9258 tokens
   Uspenskij sbornik                                   | Old Russian                 | usp-sbor    | 25189 tokens
   Varlaam’s donation charter to the Xutyn monastery   | Old Russian                 | varlaam     | 148 tokens
-  Vesti-Kuranty                                       |                             | vest-kur    | 1145 tokens
+  Vesti-Kuranty                                       | Old Russian                 | vest-kur    | 1145 tokens
 
 (The 'size' column in the table above shows the number of annotated tokens in
 a text. The number of tokens will be slightly larger than the number of words
