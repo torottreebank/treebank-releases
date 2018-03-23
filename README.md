@@ -37,7 +37,8 @@ The following texts are included in this release of the treebank:
   Materials for the history of the schism             | Old Russian                 | schism       | 1835 tokens
   Missive from Prince Ivan of Pskov, 1463–1465        | Old Russian                 | pskov-ivan   | 339 tokens
   Missive from the Archbishop of Riga to the Prince of Smolensk | Old Russian       | rig-smol1281 | 171 tokens
-  Mstislav’s letter                                   |Old Russian                  | mst   	  | 158 tokens
+  Mstislav’s letter                                   | Old Russian                 | mst   	   | 158 tokens
+  Novgorod service book marginalia                    | Old Russian                 | nov-marg     | 93 tokens
   Novgorod’s treaty with Grand Prince Jaroslav Jaroslavich, 1266 |Old Russian       | novgorod-jaroslav | 423 tokens
   Russkaja pravda                                     | Old Russian                 | rusprav     | 4174 tokens
   Statute of Prince Vladimir                          | Old Russian                 | ust-vlad    | 495 tokens
