@@ -10,7 +10,7 @@ Please cite as
 
 > Hanne Martine Eckhoff and Aleksandrs Berdicevskis. 2015. 'Linguistics vs. digital editions: The Tromsø Old Russian and OCS Treebank'. Scripta & e-Scripta 2015 14–15, pp. 9-25.
 
-Releases of the ISWOC Treebank are hosted on
+Releases of the TOROT Treebank are hosted on
 [Github](https://github.com/torottreebank/treebank-releases).
 
 Contents
