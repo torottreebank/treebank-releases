@@ -32,7 +32,7 @@ The following texts are included in this release of the treebank:
   Colophon to Mstislav’s Gospel book                  | Old Russian                 | mstislav-col | 259 tokens                                              |      259 |
   Colophon to the Ostromir Codex                      | Old Russian                 | ostromir-col | 199 tokens 
   Correspondence of Peter the Great                   | Old Russian                 | peter        | 100 tokens 
-  Domostroj                                           | Old Russian                 | domo         | 23452 tokens
+  Domostroj                                           | Old Russian                 | domo         | 23459 tokens
   Life of Sergij of Radonezh                          | Old Russian                 | sergrad      | 20361 tokens
   Materials for the history of the schism             | Old Russian                 | schism       | 1835 tokens
   Missive from Prince Ivan of Pskov, 1463–1465        | Old Russian                 | pskov-ivan   | 339 tokens
@@ -44,14 +44,16 @@ The following texts are included in this release of the treebank:
   Statute of Prince Vladimir                          | Old Russian                 | ust-vlad    | 495 tokens
   Testament of Ivan Jurievich Grjaznoj                | Old Russian                 | dux-grjaz   | 421 tokens
   The 1229 Treaty between Smolensk, Riga and Gotland (version A) | Old Russian      | riga-goth   | 1421 tokens
-  The First Novgorod Chronicle, Synodal manuscript    | Old Russian                 | nov-sin     | 17823 tokens
+  The first Novgorod Chronicle, Synodal manuscript    | Old Russian                 | nov-sin     | 17838 tokens
   The Kiev Chronicle, Codex Hypatianus                | Old Russian   				| kiev-hyp    | 544 tokens
-  The Life of Avvakum                                 | Old Russian                 | avv         | 22834 tokens 
+  The Life of Avvakum                                 | Old Russian                 | avv         | 22835 tokens 
+  The list of the Novgorodians’ losses                | Old Russian                 | nov-list    | 187 tokens
   The Primary Chronicle, Codex Hypatianus             | Old Russian                 | pvl-hyp     | 3610 tokens
-  The Primary Chronicle, Codex Laurentianus           | Old Russian                 | lav         | 56724 tokens
+  The Primary Chronicle, Codex Laurentianus           | Old Russian                 | lav         | 56725 tokens
   The Suzdal Chronicle, Codex Laurentianus            | Old Russian                 | suz-lav     | 23760 tokens 
-  The Tale of Dracula                                 | Old Russian                 | drac        | 2487 tokens
-  The Tale of Luka Kolocskij                          | Old Russian                 | luk-koloc   | 906 tokens
+  The tale of Dracula                                 | Old Russian                 | drac        | 2487 tokens
+  The tale of Igor’s campaign                         | Old Russian                 | spi         | 2850 tokens
+  The tale of Luka Kolocskij                          | Old Russian                 | luk-koloc   | 906 tokens
   The taking of Pskov                                 | Old Russian                 | pskov       | 2326 tokens
   The tale of the fall of Constantinople              | Old Russian                 | const       | 9258 tokens
   Uspenskij sbornik                                   | Old Russian                 | usp-sbor    | 25189 tokens
