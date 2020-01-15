@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proiel export-time="2020-01-14T21:27:08+01:00" schema-version="2.0">
+  <annotation>
+    <relations>
+      <value tag="adnom" summary="adnominal" primary="true" secondary="true"/>
+      <value tag="adv" summary="adverbial" primary="true" secondary="true"/>
+      <value tag="ag" summary="agens" primary="true" secondary="true"/>
+      <value tag="apos" summary="apposition" primary="true" secondary="true"/>
+      <value tag="arg" summary="argument (object or oblique)" primary="true" secondary="true"/>
+      <value tag="atr" summary="attribute" primary="true" secondary="true"/>
+      <value tag="aux" summary="auxiliary" primary="true" secondary="true"/>
+      <value tag="comp" summary="complement" primary="true" secondary="true"/>
+      <value tag="expl" summary="expletive" primary="true" secondary="true"/>
+      <value tag="narg" summary="adnominal argument" primary="true" secondary="true"/>
+      <value tag="nonsub" summary="non-subject (object, oblique or adverbial)" primary="true" secondary="true"/>
+      <value tag="obj" summary="object" primary="true" secondary="true"/>
+      <value tag="obl" summary="oblique" primary="true" secondary="true"/>
+      <value tag="parpred" summary="parenthetical predication" primary="true" secondary="true"/>
+      <value tag="part" summary="partitive" primary="true" secondary="true"/>
+      <value tag="per" summary="peripheral (oblique or adverbial)" primary="true" secondary="true"/>
+      <value tag="pid" summary="Predicate identity" primary="false" secondary="true"/>
+      <value tag="pred" summary="predicate" primary="true" secondary="true"/>
+      <value tag="rel" summary="apposition or attribute" primary="true" secondary="true"/>
+      <value tag="sub" summary="subject" primary="true" secondary="true"/>
+      <value tag="voc" summary="vocative" primary="true" secondary="true"/>
+      <value tag="xadv" summary="open adverbial complement" primary="true" secondary="true"/>
+      <value tag="xobj" summary="open objective complement" primary="true" secondary="true"/>
+      <value tag="xsub" summary="external subject" primary="false" secondary="true"/>
+    </relations>
+    <parts-of-speech>
+      <value tag="A-" summary="adjective"/>
+      <value tag="Df" summary="adverb"/>
+      <value tag="S-" summary="article"/>
+      <value tag="Ma" summary="cardinal numeral"/>
+      <value tag="Nb" summary="common noun"/>
+      <value tag="C-" summary="conjunction"/>
+      <value tag="Pd" summary="demonstrative pronoun"/>
+      <value tag="F-" summary="foreign word"/>
+      <value tag="Px" summary="indefinite pronoun"/>
+      <value tag="N-" summary="infinitive marker"/>
+      <value tag="I-" summary="interjection"/>
+      <value tag="Du" summary="interrogative adverb"/>
+      <value tag="Pi" summary="interrogative pronoun"/>
+      <value tag="Mo" summary="ordinal numeral"/>
+      <value tag="Pp" summary="personal pronoun"/>
+      <value tag="Pk" summary="personal reflexive pronoun"/>
+      <value tag="Ps" summary="possessive pronoun"/>
+      <value tag="Pt" summary="possessive reflexive pronoun"/>
+      <value tag="R-" summary="preposition"/>
+      <value tag="Ne" summary="proper noun"/>
+      <value tag="Py" summary="quantifier"/>
+      <value tag="Pc" summary="reciprocal pronoun"/>
+      <value tag="Dq" summary="relative adverb"/>
+      <value tag="Pr" summary="relative pronoun"/>
+      <value tag="G-" summary="subjunction"/>
+      <value tag="V-" summary="verb"/>
+      <value tag="X-" summary="unassigned"/>
+    </parts-of-speech>
+    <morphology>
+      <field tag="person">
+        <value tag="1" summary="first person"/>
+        <value tag="2" summary="second person"/>
+        <value tag="3" summary="third person"/>
+        <value tag="x" summary="uncertain person"/>
+      </field>
+      <field tag="number">
+        <value tag="s" summary="singular"/>
+        <value tag="d" summary="dual"/>
+        <value tag="p" summary="plural"/>
+        <value tag="x" summary="uncertain number"/>
+      </field>
+      <field tag="tense">
+        <value tag="p" summary="present"/>
+        <value tag="i" summary="imperfect"/>
+        <value tag="r" summary="perfect"/>
+        <value tag="s" summary="resultative"/>
+        <value tag="a" summary="aorist"/>
+        <value tag="u" summary="past"/>
+        <value tag="l" summary="pluperfect"/>
+        <value tag="f" summary="future"/>
+        <value tag="t" summary="future perfect"/>
+        <value tag="x" summary="uncertain tense"/>
+      </field>
+      <field tag="mood">
+        <value tag="i" summary="indicative"/>
+        <value tag="s" summary="subjunctive"/>
+        <value tag="m" summary="imperative"/>
+        <value tag="o" summary="optative"/>
+        <value tag="n" summary="infinitive"/>
+        <value tag="p" summary="participle"/>
+        <value tag="d" summary="gerund"/>
+        <value tag="g" summary="gerundive"/>
+        <value tag="u" summary="supine"/>
+        <value tag="x" summary="uncertain mood"/>
+        <value tag="y" summary="finiteness unspecified"/>
+        <value tag="e" summary="indicative or subjunctive"/>
+        <value tag="f" summary="indicative or imperative"/>
+        <value tag="h" summary="subjunctive or imperative"/>
+        <value tag="t" summary="finite"/>
+      </field>
+      <field tag="voice">
+        <value tag="a" summary="active"/>
+        <value tag="m" summary="middle"/>
+        <value tag="p" summary="passive"/>
+        <value tag="e" summary="middle or passive"/>
+        <value tag="x" summary="unspecified"/>
+      </field>
+      <field tag="gender">
+        <value tag="m" summary="masculine"/>
+        <value tag="f" summary="feminine"/>
+        <value tag="n" summary="neuter"/>
+        <value tag="p" summary="masculine or feminine"/>
+        <value tag="o" summary="masculine or neuter"/>
+        <value tag="r" summary="feminine or neuter"/>
+        <value tag="q" summary="masculine, feminine or neuter"/>
+        <value tag="x" summary="uncertain gender"/>
+      </field>
+      <field tag="case">
+        <value tag="n" summary="nominative"/>
+        <value tag="a" summary="accusative"/>
+        <value tag="o" summary="oblique"/>
+        <value tag="g" summary="genitive"/>
+        <value tag="c" summary="genitive or dative"/>
+        <value tag="e" summary="accusative or dative"/>
+        <value tag="d" summary="dative"/>
+        <value tag="b" summary="ablative"/>
+        <value tag="i" summary="instrumental"/>
+        <value tag="l" summary="locative"/>
+        <value tag="v" summary="vocative"/>
+        <value tag="x" summary="uncertain case"/>
+        <value tag="z" summary="no case"/>
+      </field>
+      <field tag="degree">
+        <value tag="p" summary="positive"/>
+        <value tag="c" summary="comparative"/>
+        <value tag="s" summary="superlative"/>
+        <value tag="x" summary="uncertain degree"/>
+        <value tag="z" summary="no degree"/>
+      </field>
+      <field tag="strength">
+        <value tag="w" summary="weak"/>
+        <value tag="s" summary="strong"/>
+        <value tag="t" summary="weak or strong"/>
+      </field>
+      <field tag="inflection">
+        <value tag="n" summary="non-inflecting"/>
+        <value tag="i" summary="inflecting"/>
+      </field>
+    </morphology>
+    <information-statuses>
+      <value tag="new" summary="new"/>
+      <value tag="kind" summary="kind"/>
+      <value tag="acc_gen" summary="acc-gen"/>
+      <value tag="acc_sit" summary="acc-sit"/>
+      <value tag="acc_inf" summary="acc-inf"/>
+      <value tag="old" summary="old"/>
+      <value tag="old_inact" summary="old-inact"/>
+      <value tag="no_info_status" summary="annotatable (undecided)"/>
+      <value tag="info_unannotatable" summary="unannotatable"/>
+      <value tag="quant" summary="quantifier restriction"/>
+      <value tag="non_spec" summary="non-specific"/>
+      <value tag="non_spec_inf" summary="inferred from non-specific"/>
+      <value tag="non_spec_old" summary="non-specific old"/>
+    </information-statuses>
+  </annotation>
+  <source id="syn-korp_603" language="rus">
+    <title>Uppsala Corpus 603</title>
+    <citation-part>Syntagrus</citation-part>
+    <license>CC BY-NC-SA 3.0</license>
+    <license-url>http://creativecommons.org/licenses/by-nc-sa/3.0/us/</license-url>
+    <editorial-note>The annotation was automatically converted from SynTagRus (http://ruscorpora.ru/search-syntax.html), with kind permission of Igor Boguslavsky and Leonid Iomdin. The conversion script was developed by Aleksandrs Berdicevskis and Hanne Eckhoff. We used the Syntagrus release of 2014-02-11. We corrected some minor errors in the release manually before conversion. The meaning of annotation statuses are as follows: Annotated -- the conversion went normally; Unannotated -- there are reasons to believe that the converted tree has at least one serious error; Reviewed -- the sentence was manually checked by a human annotator. The conversion accuracy is estimated as follows: LAS 93%, UAS 96%, POS 98%, morphological features 99%. These numbers come from on a manual check (by HE and AB) of 100 randomly sampled sentences with the "Annotated" status. See readme.txt for more information.</editorial-note>
+    <annotator>Hanne Eckhoff (47 sentences)</annotator>
+    <printed-text-place>Упсальский корпус</printed-text-place>
+    <div>
+      <title>Syntagrus Uppsala Corpus 603</title>
+      <sentence id="244665" status="annotated">
+        <token id="2660468" form="Милосердие" lemma="МИЛОСЕРДИЕ" part-of-speech="Nb" morphology="-s---nn--i" head-id="2660469" relation="sub" presentation-after=". "/>
+        <token id="2660469" empty-token-sort="V" relation="pred"/>
+      </sentence>
+      <sentence id="244666" status="annotated">
+        <token id="2660470" form="Храм" lemma="ХРАМ" part-of-speech="Nb" morphology="-s---mn--i" head-id="2660473" relation="sub" presentation-after=" "/>
+        <token id="2660471" form="и" lemma="И" part-of-speech="C-" morphology="---------n" relation="pred" presentation-after=" "/>
+        <token id="2660472" form="больница" lemma="БОЛЬНИЦА" part-of-speech="Nb" morphology="-s---fn--i" head-id="2660474" relation="sub" presentation-after=". "/>
+        <token id="2660473" empty-token-sort="V" head-id="2660471" relation="pred"/>
+        <token id="2660474" empty-token-sort="V" head-id="2660471" relation="pred"/>
+      </sentence>
+      <sentence id="244667" status="annotated">
+        <token id="2660475" form="Когда-то" lemma="КОГДА-ТО" part-of-speech="Df" morphology="---------n" head-id="2660487" relation="adv" presentation-after=", "/>
+        <token id="2660476" form="по" lemma="ПО" part-of-speech="R-" morphology="---------n" head-id="2660488" relation="xobj" presentation-after=" ">
+          <slash target-id="2660488" relation="xsub"/>
+        </token>
+        <token id="2660477" form="существу" lemma="СУЩЕСТВО" part-of-speech="Nb" morphology="-s---nd--i" head-id="2660476" relation="obl" presentation-after=", "/>
+        <token id="2660478" form="еще" lemma="ЕЩЕ" part-of-speech="Df" morphology="---------n" head-id="2660480" relation="aux" presentation-after=" "/>
+        <token id="2660479" form="совсем" lemma="СОВСЕМ" part-of-speech="Df" morphology="---------n" head-id="2660480" relation="adv" presentation-after=" "/>
+        <token id="2660480" form="недавно" lemma="НЕДАВНО" part-of-speech="Df" morphology="---------n" head-id="2660487" relation="adv" presentation-after=", "/>
+        <token id="2660481" form="эти" lemma="ЭТОТ" part-of-speech="Pd" morphology="-p---xn--i" head-id="2660482" relation="atr" presentation-after=" "/>
+        <token id="2660482" form="слова" lemma="СЛОВО" part-of-speech="Nb" morphology="-p---nn--i" head-id="2660483" relation="sub" presentation-after=" "/>
+        <token id="2660483" form="были" lemma="БЫТЬ.ipf" part-of-speech="V-" morphology="-pspaxn-si" relation="pred" presentation-after=" "/>
+        <token id="2660484" form="близки" lemma="БЛИЗКИЙ" part-of-speech="A-" morphology="-p---xnpsi" head-id="2660483" relation="xobj" presentation-after=" ">
+          <slash target-id="2660482" relation="xsub"/>
+        </token>
+        <token id="2660485" form="друг" lemma="ДРУГ" part-of-speech="Pc" morphology="-s---mn--i" head-id="2660483" relation="xadv" presentation-after=" ">
+          <slash target-id="2660483" relation="xsub"/>
+        </token>
+        <token id="2660486" form="другу" lemma="ДРУГ" part-of-speech="Pc" morphology="-s---md--i" head-id="2660484" relation="obl" presentation-after=". "/>
+        <token id="2660487" empty-token-sort="C" head-id="2660483" relation="adv"/>
+        <token id="2660488" empty-token-sort="V" relation="parpred"/>
+      </sentence>
+      <sentence id="244668" status="annotated">
+        <token id="2660489" form="Богадельни" lemma="БОГАДЕЛЬНЯ" part-of-speech="Nb" morphology="-p---fn--i" head-id="2660495" relation="apos" presentation-after=", "/>
+        <token id="2660490" form="лечебницы" lemma="ЛЕЧЕБНИЦА" part-of-speech="Nb" morphology="-p---fn--i" head-id="2660495" relation="apos" presentation-after=" "/>
+        <token id="2660491" form="при" lemma="ПРИ" part-of-speech="R-" morphology="---------n" head-id="2660490" relation="atr" presentation-after=" "/>
+        <token id="2660492" form="монастырях" lemma="МОНАСТЫРЬ" part-of-speech="Nb" morphology="-p---ml--i" head-id="2660491" relation="obl" presentation-after=", "/>
+        <token id="2660493" form="сестры" lemma="СЕСТРА" part-of-speech="Nb" morphology="-p---fn--i" head-id="2660495" relation="apos" presentation-after=" "/>
+        <token id="2660494" form="милосердия" lemma="МИЛОСЕРДИЕ" part-of-speech="Nb" morphology="-s---ng--i" head-id="2660493" relation="atr" presentation-after=" "/>
+        <token id="2660495" form="и" lemma="И" part-of-speech="C-" morphology="---------n" head-id="2660499" relation="apos" presentation-after=" "/>
+        <token id="2660496" form="братческие" lemma="БРАТЧЕСКИЙ" part-of-speech="A-" morphology="-p---xnpwi" head-id="2660497" relation="atr" presentation-after=" "/>
+        <token id="2660497" form="общины" lemma="ОБЩИНА" part-of-speech="Nb" morphology="-p---fn--i" head-id="2660495" relation="apos" presentation-after=" - "/>
+        <token id="2660498" form="эти" lemma="ЭТОТ" part-of-speech="Pd" morphology="-p---xn--i" head-id="2660499" relation="atr" presentation-after=" "/>
+        <token id="2660499" form="понятия" lemma="ПОНЯТИЕ" part-of-speech="Nb" morphology="-p---nn--i" head-id="2660504" relation="sub" presentation-after=" "/>
+        <token id="2660500" form="всего" lemma="ВСЕГО" part-of-speech="Df" morphology="---------n" head-id="2660501" relation="adv" presentation-after=" "/>
+        <token id="2660501" form="несколько" lemma="НЕСКОЛЬКО" part-of-speech="Ma" morphology="-x---xa--i" head-id="2660503" relation="obl" presentation-after=" "/>
+        <token id="2660502" form="поколений" lemma="ПОКОЛЕНИЕ" part-of-speech="Nb" morphology="-p---ng--i" head-id="2660501" relation="part" presentation-after=" "/>
+        <token id="2660503" form="назад" lemma="НАЗАД" part-of-speech="R-" morphology="---------n" head-id="2660504" relation="adv" presentation-after=" "/>
+        <token id="2660504" form="служили" lemma="СЛУЖИТЬ.ipf" part-of-speech="V-" morphology="-pspaxn-si" relation="pred" presentation-after=" "/>
+        <token id="2660505" form="реальным" lemma="РЕАЛЬНЫЙ" part-of-speech="A-" morphology="-s---nipwi" head-id="2660506" relation="atr" presentation-after=" "/>
+        <token id="2660506" form="воплощением" lemma="ВОПЛОЩЕНИЕ" part-of-speech="Nb" morphology="-s---ni--i" head-id="2660529" relation="obl" presentation-after=" "/>
+        <token id="2660507" form="идеи" lemma="ИДЕЯ" part-of-speech="Nb" morphology="-s---fg--i" head-id="2660506" relation="narg" presentation-after=" "/>
+        <token id="2660508" form="милосердия" lemma="МИЛОСЕРДИЕ" part-of-speech="Nb" morphology="-s---ng--i" head-id="2660507" relation="atr" presentation-after=", "/>
+        <token id="2660509" form="тем" lemma="ТОТ" part-of-speech="Pd" morphology="-s---mi--i" head-id="2660511" relation="atr" presentation-after=" "/>
+        <token id="2660510" form="социальным" lemma="СОЦИАЛЬНЫЙ" part-of-speech="A-" morphology="-s---mipwi" head-id="2660511" relation="atr" presentation-after=" "/>
+        <token id="2660511" form="институтом" lemma="ИНСТИТУТ" part-of-speech="Nb" morphology="-s---mi--i" head-id="2660529" relation="obl" presentation-after=", "/>
+        <token id="2660512" form="что" lemma="ЧТО" part-of-speech="Pi" morphology="-s---nn--i" head-id="2660514" relation="sub" presentation-after=" "/>
+        <token id="2660513" form="нередко" lemma="НЕРЕДКО" part-of-speech="Df" morphology="---------n" head-id="2660514" relation="adv" presentation-after=" "/>
+        <token id="2660514" form="брал" lemma="БРАТЬ.ipf" part-of-speech="V-" morphology="-sspamn-si" head-id="2660511" relation="rel" presentation-after=" "/>
+        <token id="2660515" form="на" lemma="НА" part-of-speech="R-" morphology="---------n" head-id="2660514" relation="obl" presentation-after=" "/>
+        <token id="2660516" form="себя" lemma="СЕБЯ" part-of-speech="Pk" morphology="3s---ma--i" head-id="2660515" relation="obl" presentation-after=" "/>
+        <token id="2660517" form="оказание" lemma="ОКАЗАНИЕ" part-of-speech="Nb" morphology="-s---na--i" head-id="2660514" relation="obj" presentation-after=" "/>
+        <token id="2660518" form="помощи" lemma="ПОМОЩЬ" part-of-speech="Nb" morphology="-s---fg--i" head-id="2660517" relation="narg" presentation-after=" "/>
+        <token id="2660519" form="человеку" lemma="ЧЕЛОВЕК" part-of-speech="Nb" morphology="-s---md--i" head-id="2660526" relation="narg" presentation-after=", "/>
+        <token id="2660520" form="попавшему" lemma="ПОПАДАТЬ.pf" part-of-speech="V-" morphology="-supamd-wi" head-id="2660519" relation="atr" presentation-after=" "/>
+        <token id="2660521" form="в" lemma="В" part-of-speech="R-" morphology="---------n" head-id="2660520" relation="obl" presentation-after=" "/>
+        <token id="2660522" form="беду" lemma="БЕДА" part-of-speech="Nb" morphology="-s---fa--i" head-id="2660521" relation="obl" presentation-after=", "/>
+        <token id="2660523" form="пораженному" lemma="ПОРАЖАТЬ.pf" part-of-speech="V-" morphology="-suppmd-wi" head-id="2660519" relation="atr" presentation-after=" "/>
+        <token id="2660524" form="недугом" lemma="НЕДУГ" part-of-speech="Nb" morphology="-s---mi--i" head-id="2660523" relation="obl" presentation-after=", "/>
+        <token id="2660525" form="старику" lemma="СТАРИК" part-of-speech="Nb" morphology="-s---md--i" head-id="2660526" relation="narg" presentation-after=" "/>
+        <token id="2660526" form="и" lemma="И" part-of-speech="C-" morphology="---------n" head-id="2660518" relation="narg" presentation-after=" "/>
+        <token id="2660527" form="немощному" lemma="НЕМОЩНЫЙ" part-of-speech="A-" morphology="-s---mdpwi" head-id="2660528" relation="atr" presentation-after=" "/>
+        <token id="2660528" form="калеке" lemma="КАЛЕКА" part-of-speech="Nb" morphology="-s---md--i" head-id="2660526" relation="narg" presentation-after=". "/>
+        <token id="2660529" empty-token-sort="C" head-id="2660504" relation="obl"/>
+      </sentence>
+      <sentence id="244669" status="annotated">
+        <token id="2660530" form="Священнослужители" lemma="СВЯЩЕННОСЛУЖИТЕЛЬ" part-of-speech="Nb" morphology="-p---mn--i" head-id="2660531" relation="sub" presentation-after=" "/>
+        <token id="2660531" form="разделили" lemma="РАЗДЕЛЯТЬ.pf" part-of-speech="V-" morphology="-pspaxn-si" relation="pred" presentation-after=" "/>
+        <token id="2660532" form="горькую" lemma="ГОРЬКИЙ" part-of-speech="A-" morphology="-s---fapwi" head-id="2660533" relation="atr" presentation-after=" "/>
+        <token id="2660533" form="участь" lemma="УЧАСТЬ" part-of-speech="Nb" morphology="-s---fa--i" head-id="2660531" relation="obj" presentation-after=" "/>
+        <token id="2660534" form="интеллигенции" lemma="ИНТЕЛЛИГЕНЦИЯ" part-of-speech="Nb" morphology="-s---fg--i" head-id="2660533" relation="atr" presentation-after=", "/>
+        <token id="2660535" form="к" lemma="К" part-of-speech="R-" morphology="---------n" head-id="2660544" relation="obl" presentation-after=" "/>
+        <token id="2660536" form="которой" lemma="КОТОРЫЙ" part-of-speech="Pr" morphology="-s---fd--i" head-id="2660535" relation="obl" presentation-after=" "/>
+        <token id="2660537" form="вождь" lemma="ВОЖДЬ" part-of-speech="Nb" morphology="-s---mn--i" head-id="2660542" relation="sub" presentation-before="&quot;" presentation-after=" "/>
+        <token id="2660538" form="всех" lemma="ВЕСЬ" part-of-speech="Px" morphology="-p---xg--i" head-id="2660539" relation="atr" presentation-after=" "/>
+        <token id="2660539" form="времен" lemma="ВРЕМЯ" part-of-speech="Nb" morphology="-p---ng--i" head-id="2660540" relation="atr" presentation-after=" "/>
+        <token id="2660540" form="и" lemma="И" part-of-speech="C-" morphology="---------n" head-id="2660537" relation="atr" presentation-after=" "/>
+        <token id="2660541" form="народов" lemma="НАРОД" part-of-speech="Nb" morphology="-p---mg--i" head-id="2660540" relation="atr" presentation-after="&quot; "/>
+        <token id="2660542" form="был" lemma="БЫТЬ.ipf" part-of-speech="V-" morphology="-sspamn-si" head-id="2660534" relation="rel" presentation-after=" "/>
+        <token id="2660543" form="особенно" lemma="ОСОБЕННО" part-of-speech="Df" morphology="---------n" head-id="2660544" relation="adv" presentation-after=" "/>
+        <token id="2660544" form="нетерпим" lemma="НЕТЕРПИМЫЙ" part-of-speech="A-" morphology="-s---mnpsi" head-id="2660545" relation="xobj" presentation-after=" "/>
+        <token id="2660545" form="и" lemma="И" part-of-speech="C-" morphology="---------n" head-id="2660542" relation="xobj" presentation-after=" ">
+          <slash target-id="2660537" relation="xsub"/>
+        </token>
+        <token id="2660546" form="жесток" lemma="ЖЕСТОКИЙ" part-of-speech="A-" morphology="-s---mnpsi" head-id="2660545" relation="xobj" presentation-after=". "/>
+      </sentence>
+      <sentence id="244670" status="annotated">
+        <token id="2660547" form="Поколениям" lemma="ПОКОЛЕНИЕ" part-of-speech="Nb" morphology="-p---nd--i" head-id="2660551" relation="obl" presentation-after=" "/>
+        <token id="2660548" form="с" lemma="С" part-of-speech="R-" morphology="---------n" head-id="2660551" relation="adv" presentation-after=" "/>
+        <token id="2660549" form="детских" lemma="ДЕТСКИЙ" part-of-speech="A-" morphology="-p---xgpwi" head-id="2660550" relation="atr" presentation-after=" "/>
+        <token id="2660550" form="лет" lemma="ГОД" part-of-speech="Nb" morphology="-p---mg--i" head-id="2660548" relation="obl" presentation-after=" "/>
+        <token id="2660551" form="внушалось" lemma="ВНУШАТЬ.ipf" part-of-speech="V-" morphology="-ssppnn-si" relation="pred" presentation-after=", "/>
+        <token id="2660552" form="что" lemma="ЧТО" part-of-speech="G-" morphology="---------n" head-id="2660551" relation="comp" presentation-after=" "/>
+        <token id="2660553" form="наше" lemma="НАШ" part-of-speech="Ps" morphology="1s---nn--i" head-id="2660555" relation="atr" presentation-after=" "/>
+        <token id="2660554" form="главное" lemma="ГЛАВНЫЙ" part-of-speech="A-" morphology="-s---nnpwi" head-id="2660555" relation="atr" presentation-after=" "/>
+        <token id="2660555" form="достоинство" lemma="ДОСТОИНСТВО" part-of-speech="Nb" morphology="-s---nn--i" head-id="2660557" relation="sub" presentation-after=" - "/>
+        <token id="2660556" form="сила" lemma="СИЛА" part-of-speech="Nb" morphology="-s---fn--i" head-id="2660557" relation="xobj" presentation-after=". ">
+          <slash target-id="2660555" relation="xsub"/>
+        </token>
+        <token id="2660557" empty-token-sort="V" head-id="2660552" relation="pred"/>
+      </sentence>
+      <sentence id="244671" status="unannotated">
+        <token id="2660558" form="И" lemma="И" part-of-speech="C-" morphology="---------n" relation="pred" presentation-after=" "/>
+        <token id="2660559" form="чтобы" lemma="ЧТОБЫ" part-of-speech="G-" morphology="---------n" head-id="2660558" relation="aux" presentation-after=" "/>
+        <token id="2660560" form="никаких" lemma="НИКАКОЙ" part-of-speech="Px" morphology="-p---xg--i" head-id="2660561" relation="atr" presentation-after=" "/>
+        <token id="2660561" form="проблем" lemma="ПРОБЛЕМА" part-of-speech="Nb" morphology="-p---fg--i" head-id="2660565" relation="sub" presentation-after=" "/>
+        <token id="2660562" form="с" lemma="С" part-of-speech="R-" morphology="---------n" head-id="2660561" relation="atr" presentation-after=" "/>
+        <token id="2660563" form="гуманизмом" lemma="ГУМАНИЗМ" part-of-speech="Nb" morphology="-s---mi--i" head-id="2660566" relation="obl" presentation-after=", "/>
+        <token id="2660564" form="милосердием" lemma="МИЛОСЕРДИЕ" part-of-speech="Nb" morphology="-s---ni--i" head-id="2660566" relation="obl" presentation-after="! "/>
+        <token id="2660565" empty-token-sort="V" head-id="2660559" relation="pred"/>
+        <token id="2660566" empty-token-sort="C" head-id="2660562" relation="obl"/>
+      </sentence>
+      <sentence id="244672" status="annotated">
+        <token id="2660567" form="Пережитки" lemma="ПЕРЕЖИТОК" part-of-speech="Nb" morphology="-p---mn--i" head-id="2660568" relation="sub" presentation-after="… "/>
+        <token id="2660568" empty-token-sort="V" relation="pred"/>
+      </sentence>
+      <sentence id="244673" status="annotated">
+        <token id="2660569" form="А" lemma="А" part-of-speech="C-" morphology="---------n" head-id="2660573" relation="aux" presentation-after=" "/>
+        <token id="2660570" form="ведь" lemma="ВЕДЬ" part-of-speech="Df" morphology="---------n" head-id="2660573" relation="aux" presentation-after=" "/>
+        <token id="2660571" form="где" lemma="ГДЕ" part-of-speech="Du" morphology="---------n" head-id="2660575" relation="xobj" presentation-after=" ">
+          <slash target-id="2660572" relation="xsub"/>
+        </token>
+        <token id="2660572" form="душа" lemma="ДУША" part-of-speech="Nb" morphology="-s---fn--i" head-id="2660575" relation="sub" presentation-after=", "/>
+        <token id="2660573" form="там" lemma="ТАМ" part-of-speech="Df" morphology="---------n" head-id="2660576" relation="xobj" presentation-after=" ">
+          <slash target-id="2660574" relation="xsub"/>
+        </token>
+        <token id="2660574" form="совесть" lemma="СОВЕСТЬ" part-of-speech="Nb" morphology="-s---fn--i" head-id="2660576" relation="sub" presentation-after=". "/>
+        <token id="2660575" empty-token-sort="V" head-id="2660573" relation="rel"/>
+        <token id="2660576" empty-token-sort="V" relation="pred"/>
+      </sentence>
+      <sentence id="244674" status="annotated">
+        <token id="2660577" form="А" lemma="А" part-of-speech="C-" morphology="---------n" head-id="2660580" relation="aux" presentation-after=" "/>
+        <token id="2660578" form="совесть" lemma="СОВЕСТЬ" part-of-speech="Nb" morphology="-s---fn--i" head-id="2660580" relation="sub" presentation-after=" "/>
+        <token id="2660579" form="не" lemma="НЕ" part-of-speech="Df" morphology="---------n" head-id="2660580" relation="aux" presentation-after=" "/>
+        <token id="2660580" form="может" lemma="МОЧЬ.ipf" part-of-speech="V-" morphology="3spia----i" relation="pred" presentation-after=" "/>
+        <token id="2660581" form="существовать" lemma="СУЩЕСТВОВАТЬ.ipf" part-of-speech="V-" morphology="---na----i" head-id="2660580" relation="xobj" presentation-after=" ">
+          <slash target-id="2660578" relation="xsub"/>
+        </token>
+        <token id="2660582" form="без" lemma="БЕЗ" part-of-speech="R-" morphology="---------n" head-id="2660601" relation="adv" presentation-after=" "/>
+        <token id="2660583" form="морали" lemma="МОРАЛЬ" part-of-speech="Nb" morphology="-s---fg--i" head-id="2660600" relation="obl" presentation-after=", "/>
+        <token id="2660584" form="жизненных" lemma="ЖИЗНЕННЫЙ" part-of-speech="A-" morphology="-p---xgpwi" head-id="2660585" relation="atr" presentation-after=" "/>
+        <token id="2660585" form="устоев" lemma="УСТОЙ" part-of-speech="Nb" morphology="-p---mg--i" head-id="2660600" relation="obl" presentation-after=", "/>
+        <token id="2660586" form="без" lemma="БЕЗ" part-of-speech="R-" morphology="---------n" head-id="2660601" relation="adv" presentation-after=" "/>
+        <token id="2660587" form="тех" lemma="ТОТ" part-of-speech="Pd" morphology="-p---xg--i" head-id="2660590" relation="atr" presentation-after=" "/>
+        <token id="2660588" form="художественных" lemma="ХУДОЖЕСТВЕННЫЙ" part-of-speech="A-" morphology="-p---xgpwi" head-id="2660602" relation="atr" presentation-after=", "/>
+        <token id="2660589" form="литературных" lemma="ЛИТЕРАТУРНЫЙ" part-of-speech="A-" morphology="-p---xgpwi" head-id="2660602" relation="atr" presentation-after=" "/>
+        <token id="2660590" form="ориентиров" lemma="ОРИЕНТИР" part-of-speech="Nb" morphology="-p---mg--i" head-id="2660586" relation="obl" presentation-after=", "/>
+        <token id="2660591" form="которые" lemma="КОТОРЫЙ" part-of-speech="Pr" morphology="-p---xn--i" head-id="2660595" relation="sub" presentation-after=" "/>
+        <token id="2660592" form="на" lemma="НА" part-of-speech="R-" morphology="---------n" head-id="2660595" relation="adv" presentation-after=" "/>
+        <token id="2660593" form="всю" lemma="ВЕСЬ" part-of-speech="Px" morphology="-s---fa--i" head-id="2660594" relation="atr" presentation-after=" "/>
+        <token id="2660594" form="жизнь" lemma="ЖИЗНЬ" part-of-speech="Nb" morphology="-s---fa--i" head-id="2660592" relation="obl" presentation-after=" "/>
+        <token id="2660595" form="становятся" lemma="СТАНОВИТЬСЯ.ipf" part-of-speech="V-" morphology="3ppim----i" head-id="2660590" relation="rel" presentation-after=" "/>
+        <token id="2660596" form="маяками" lemma="МАЯК" part-of-speech="Nb" morphology="-p---mi--i" head-id="2660595" relation="xobj" presentation-after=" ">
+          <slash target-id="2660591" relation="xsub"/>
+        </token>
+        <token id="2660597" form="добра" lemma="ДОБРО" part-of-speech="Nb" morphology="-s---ng--i" head-id="2660598" relation="atr" presentation-after=" "/>
+        <token id="2660598" form="и" lemma="И" part-of-speech="C-" morphology="---------n" head-id="2660596" relation="atr" presentation-after=" "/>
+        <token id="2660599" form="любви" lemma="ЛЮБОВЬ" part-of-speech="Nb" morphology="-s---fg--i" head-id="2660598" relation="atr" presentation-after=". "/>
+        <token id="2660600" empty-token-sort="C" head-id="2660582" relation="obl"/>
+        <token id="2660601" empty-token-sort="C" head-id="2660580" relation="adv"/>
+        <token id="2660602" empty-token-sort="C" head-id="2660590" relation="atr"/>
+      </sentence>
+      <sentence id="244675" status="annotated">
+        <token id="2660603" form="Кто" lemma="КТО" part-of-speech="Pi" morphology="-s---mn--i" head-id="2660605" relation="sub" presentation-after=" "/>
+        <token id="2660604" form="же" lemma="ЖЕ" part-of-speech="Df" morphology="---------n" head-id="2660603" relation="aux" presentation-after=" "/>
+        <token id="2660605" form="может" lemma="МОЧЬ.ipf" part-of-speech="V-" morphology="3spia----i" relation="pred" presentation-after=" "/>
+        <token id="2660606" form="быть" lemma="БЫТЬ.ipf" part-of-speech="V-" morphology="---na----i" head-id="2660605" relation="xobj" presentation-after=" ">
+          <slash target-id="2660603" relation="xsub"/>
+        </token>
+        <token id="2660607" form="союзником" lemma="СОЮЗНИК" part-of-speech="Nb" morphology="-s---mi--i" head-id="2660606" relation="xobj" presentation-after=" ">
+          <slash target-id="2660606" relation="xsub"/>
+        </token>
+        <token id="2660608" form="в" lemma="В" part-of-speech="R-" morphology="---------n" head-id="2660607" relation="atr" presentation-after=" "/>
+        <token id="2660609" form="поисках" lemma="ПОИСК" part-of-speech="Nb" morphology="-p---ml--i" head-id="2660608" relation="obl" presentation-after=" "/>
+        <token id="2660610" form="утраченного" lemma="УТРАЧИВАТЬ.pf" part-of-speech="V-" morphology="-suppng-wi" head-id="2660622" relation="atr" presentation-after=", "/>
+        <token id="2660611" form="потаенного" lemma="ПОТАЕННЫЙ" part-of-speech="A-" morphology="-s---ngpwi" head-id="2660622" relation="atr" presentation-after=" "/>
+        <token id="2660612" form="добра" lemma="ДОБРО" part-of-speech="Nb" morphology="-s---ng--i" head-id="2660613" relation="narg" presentation-after=" "/>
+        <token id="2660613" form="и" lemma="И" part-of-speech="C-" morphology="---------n" head-id="2660609" relation="narg" presentation-after=" "/>
+        <token id="2660614" form="духовности" lemma="ДУХОВНОСТЬ" part-of-speech="Nb" morphology="-s---fg--i" head-id="2660613" relation="narg" presentation-after=", "/>
+        <token id="2660615" form="прежде" lemma="ПРЕЖДЕ" part-of-speech="Df" morphology="---------n" head-id="2660617" relation="aux" presentation-after=" "/>
+        <token id="2660616" form="столь" lemma="СТОЛЬ" part-of-speech="Df" morphology="---------n" head-id="2660617" relation="aux" presentation-after=" "/>
+        <token id="2660617" form="явного" lemma="ЯВНЫЙ" part-of-speech="A-" morphology="-s---ngpwi" head-id="2660618" relation="atr" presentation-after=" "/>
+        <token id="2660618" form="и" lemma="И" part-of-speech="C-" morphology="---------n" head-id="2660612" relation="atr" presentation-after=" "/>
+        <token id="2660619" form="свойственного" lemma="СВОЙСТВЕННЫЙ" part-of-speech="A-" morphology="-s---ngpwi" head-id="2660618" relation="atr" presentation-after=" "/>
+        <token id="2660620" form="нашему" lemma="НАШ" part-of-speech="Ps" morphology="1s---md--i" head-id="2660621" relation="atr" presentation-after=" "/>
+        <token id="2660621" form="народу" lemma="НАРОД" part-of-speech="Nb" morphology="-s---md--i" head-id="2660619" relation="obl" presentation-after="? "/>
+        <token id="2660622" empty-token-sort="C" head-id="2660612" relation="atr"/>
+      </sentence>
+      <sentence id="244676" status="annotated">
+        <token id="2660623" form="Я" lemma="Я" part-of-speech="Pp" morphology="1s---mn--i" head-id="2660665" relation="sub" presentation-before="&quot;" presentation-after=" "/>
+        <token id="2660624" form="убежден" lemma="УБЕЖДЕННЫЙ" part-of-speech="A-" morphology="-s---mnpsi" head-id="2660665" relation="xobj" presentation-after=", - ">
+          <slash target-id="2660623" relation="xsub"/>
+        </token>
+        <token id="2660625" form="говорил" lemma="ГОВОРИТЬ.ipf" part-of-speech="V-" morphology="-sspamn-si" relation="parpred" presentation-after=" "/>
+        <token id="2660626" form="в" lemma="В" part-of-speech="R-" morphology="---------n" head-id="2660625" relation="adv" presentation-after=" "/>
+        <token id="2660627" form="одном" lemma="ОДИН" part-of-speech="Ma" morphology="-s---nl--i" head-id="2660626" relation="obl" presentation-after=" "/>
+        <token id="2660628" form="из" lemma="ИЗ" part-of-speech="R-" morphology="---------n" head-id="2660627" relation="part" presentation-after=" "/>
+        <token id="2660629" form="интервью" lemma="ИНТЕРВЬЮ" part-of-speech="Nb" morphology="-p---ng--i" head-id="2660628" relation="obl" presentation-after=" "/>
+        <token id="2660630" form="патриарх" lemma="ПАТРИАРХ" part-of-speech="Nb" morphology="-s---mn--i" head-id="2660625" relation="sub" presentation-after=" "/>
+        <token id="2660631" form="Пимен" lemma="ПИМЕН" part-of-speech="Ne" morphology="-s---mn--i" head-id="2660630" relation="apos" presentation-after=", - "/>
+        <token id="2660632" form="что" lemma="ЧТО" part-of-speech="G-" morphology="---------n" head-id="2660624" relation="comp" presentation-after=" "/>
+        <token id="2660633" form="в" lemma="В" part-of-speech="R-" morphology="---------n" head-id="2660643" relation="adv" presentation-after=" "/>
+        <token id="2660634" form="этой" lemma="ЭТОТ" part-of-speech="Pd" morphology="-s---fl--i" head-id="2660641" relation="atr" presentation-after=" "/>
+        <token id="2660635" form="чрезвычайно" lemma="ЧРЕЗВЫЧАЙНО" part-of-speech="Df" morphology="---------n" head-id="2660636" relation="aux" presentation-after=" "/>
+        <token id="2660636" form="важной" lemma="ВАЖНЫЙ" part-of-speech="A-" morphology="-s---flpwi" head-id="2660641" relation="atr" presentation-after=" "/>
+        <token id="2660637" form="в" lemma="В" part-of-speech="R-" morphology="---------n" head-id="2660636" relation="atr" presentation-after=" "/>
+        <token id="2660638" form="духовно" lemma="ДУХОВНЫЙ" part-of-speech="A-" morphology="-s---xxpwi" head-id="2660639" relation="atr" presentation-after="-"/>
+        <token id="2660639" form="нравственном" lemma="НРАВСТВЕННЫЙ" part-of-speech="A-" morphology="-s---nlpwi" head-id="2660640" relation="atr" presentation-after=" "/>
+        <token id="2660640" form="отношении" lemma="ОТНОШЕНИЕ" part-of-speech="Nb" morphology="-s---nl--i" head-id="2660637" relation="obl" presentation-after=" "/>
+        <token id="2660641" form="сфере" lemma="СФЕРА" part-of-speech="Nb" morphology="-s---fl--i" head-id="2660633" relation="obl" presentation-after=" "/>
+        <token id="2660642" form="церковь" lemma="ЦЕРКОВЬ" part-of-speech="Nb" morphology="-s---fn--i" head-id="2660643" relation="sub" presentation-after=" "/>
+        <token id="2660643" form="могла" lemma="МОЧЬ.ipf" part-of-speech="V-" morphology="-sspafn-si" head-id="2660632" relation="pred" presentation-after=" "/>
+        <token id="2660644" form="бы" lemma="БЫ" part-of-speech="Df" morphology="---------n" head-id="2660643" relation="aux" presentation-after=" "/>
+        <token id="2660645" form="принести" lemma="ПРИНОСИТЬ.pf" part-of-speech="V-" morphology="---na----i" head-id="2660643" relation="xobj" presentation-after=" ">
+          <slash target-id="2660642" relation="xsub"/>
+        </token>
+        <token id="2660646" form="большую" lemma="БОЛЬШОЙ" part-of-speech="A-" morphology="-s---fapwi" head-id="2660647" relation="atr" presentation-after=" "/>
+        <token id="2660647" form="пользу" lemma="ПОЛЬЗА" part-of-speech="Nb" morphology="-s---fa--i" head-id="2660645" relation="obj" presentation-after=" "/>
+        <token id="2660648" form="нашему" lemma="НАШ" part-of-speech="Ps" morphology="1s---nd--i" head-id="2660649" relation="atr" presentation-after=" "/>
+        <token id="2660649" form="обществу" lemma="ОБЩЕСТВО" part-of-speech="Nb" morphology="-s---nd--i" head-id="2660645" relation="obl" presentation-after=", "/>
+        <token id="2660650" form="ибо" lemma="ИБО" part-of-speech="G-" morphology="---------n" head-id="2660643" relation="adv" presentation-after=" "/>
+        <token id="2660651" form="милосердие" lemma="МИЛОСЕРДИЕ" part-of-speech="Nb" morphology="-s---nn--i" head-id="2660659" relation="sub" presentation-after=", "/>
+        <token id="2660652" form="которое" lemma="КОТОРЫЙ" part-of-speech="Pr" morphology="-s---na--i" head-id="2660654" relation="obj" presentation-after=" "/>
+        <token id="2660653" form="мы" lemma="МЫ" part-of-speech="Pp" morphology="1p---xn--i" head-id="2660654" relation="sub" presentation-after=" "/>
+        <token id="2660654" form="понимаем" lemma="ПОНИМАТЬ.ipf" part-of-speech="V-" morphology="1ppia----i" head-id="2660651" relation="rel" presentation-after=" "/>
+        <token id="2660655" form="как" lemma="КАК" part-of-speech="Df" morphology="---------n" head-id="2660654" relation="obl" presentation-after=" "/>
+        <token id="2660656" form="сострадание" lemma="СОСТРАДАНИЕ" part-of-speech="Nb" morphology="-s---na--i" head-id="2660657" relation="adv" presentation-after=" "/>
+        <token id="2660657" form="и" lemma="И" part-of-speech="C-" morphology="---------n" head-id="2660655" relation="adv" presentation-after=" "/>
+        <token id="2660658" form="верность" lemma="ВЕРНОСТЬ" part-of-speech="Nb" morphology="-s---fa--i" head-id="2660657" relation="adv" presentation-after=", "/>
+        <token id="2660659" form="является" lemma="ЯВЛЯТЬСЯ.ipf" part-of-speech="V-" morphology="3spim----i" head-id="2660650" relation="pred" presentation-after=" "/>
+        <token id="2660660" form="неотъемлемой" lemma="НЕОТЪЕМЛЕМЫЙ" part-of-speech="A-" morphology="-s---fipwi" head-id="2660661" relation="atr" presentation-after=" "/>
+        <token id="2660661" form="частью" lemma="ЧАСТЬ" part-of-speech="Nb" morphology="-s---fi--i" head-id="2660659" relation="xobj" presentation-after=" ">
+          <slash target-id="2660651" relation="xsub"/>
+        </token>
+        <token id="2660662" form="жизни" lemma="ЖИЗНЬ" part-of-speech="Nb" morphology="-s---fg--i" head-id="2660661" relation="atr" presentation-after=" "/>
+        <token id="2660663" form="каждого" lemma="КАЖДЫЙ" part-of-speech="Px" morphology="-s---mg--i" head-id="2660664" relation="atr" presentation-after=" "/>
+        <token id="2660664" form="христианина" lemma="ХРИСТИАНИН" part-of-speech="Nb" morphology="-s---mg--i" head-id="2660662" relation="atr" presentation-after="&quot;. "/>
+        <token id="2660665" empty-token-sort="V" relation="pred"/>
+      </sentence>
+      <sentence id="244677" status="annotated">
+        <token id="2660666" form="На" lemma="НА" part-of-speech="R-" morphology="---------n" head-id="2660680" relation="adv" presentation-before="…" presentation-after=" "/>
+        <token id="2660667" form="фоне" lemma="ФОН" part-of-speech="Nb" morphology="-s---ml--i" head-id="2660666" relation="obl" presentation-after=" "/>
+        <token id="2660668" form="великолепия" lemma="ВЕЛИКОЛЕПИЕ" part-of-speech="Nb" morphology="-s---ng--i" head-id="2660667" relation="atr" presentation-after=" "/>
+        <token id="2660669" form="Богоявленского" lemma="БОГОЯВЛЕНСКИЙ" part-of-speech="A-" morphology="-s---mgpwi" head-id="2660671" relation="atr" presentation-after=" "/>
+        <token id="2660670" form="патриаршего" lemma="ПАТРИАРШИЙ" part-of-speech="A-" morphology="-s---mgpwi" head-id="2660671" relation="atr" presentation-after=" "/>
+        <token id="2660671" form="собора" lemma="СОБОР" part-of-speech="Nb" morphology="-s---mg--i" head-id="2660668" relation="atr" presentation-after=" "/>
+        <token id="2660672" form="более" lemma="БОЛЕЕ" part-of-speech="Df" morphology="---------n" head-id="2660673" relation="adv" presentation-before="(" presentation-after=" "/>
+        <token id="2660673" form="известного" lemma="ИЗВЕСТНЫЙ" part-of-speech="A-" morphology="-s---mgpwi" head-id="2660684" relation="xobj" presentation-after=" ">
+          <slash target-id="2660684" relation="xsub"/>
+        </token>
+        <token id="2660674" form="москвичам" lemma="МОСКВИЧ" part-of-speech="Nb" morphology="-p---md--i" head-id="2660673" relation="obl" presentation-after=" "/>
+        <token id="2660675" form="как" lemma="КАК" part-of-speech="Df" morphology="---------n" head-id="2660673" relation="obl" presentation-after=" "/>
+        <token id="2660676" form="Елоховская" lemma="ЕЛОХОВСКИЙ" part-of-speech="A-" morphology="-s---fnpwi" head-id="2660677" relation="atr" presentation-after=" "/>
+        <token id="2660677" form="церковь" lemma="ЦЕРКОВЬ" part-of-speech="Nb" morphology="-s---fn--i" head-id="2660675" relation="sub" presentation-after=") "/>
+        <token id="2660678" form="особенно" lemma="ОСОБЕННО" part-of-speech="Df" morphology="---------n" head-id="2660679" relation="adv" presentation-after=" "/>
+        <token id="2660679" form="неприглядно" lemma="НЕПРИГЛЯДНО" part-of-speech="Df" morphology="---------n" head-id="2660680" relation="obl" presentation-after=" "/>
+        <token id="2660680" form="выглядит" lemma="ВЫГЛЯДЕТЬ.ipf" part-of-speech="V-" morphology="3spia----i" relation="pred" presentation-after=" "/>
+        <token id="2660681" form="старинная" lemma="СТАРИННЫЙ" part-of-speech="A-" morphology="-s---fnpwi" head-id="2660683" relation="atr" presentation-after=" "/>
+        <token id="2660682" form="Басманная" lemma="БАСМАННЫЙ" part-of-speech="A-" morphology="-s---fnpwi" head-id="2660683" relation="atr" presentation-after=" "/>
+        <token id="2660683" form="больница" lemma="БОЛЬНИЦА" part-of-speech="Nb" morphology="-s---fn--i" head-id="2660680" relation="sub" presentation-after=". "/>
+        <token id="2660684" empty-token-sort="V" relation="parpred"/>
+      </sentence>
+      <sentence id="244678" status="annotated">
+        <token id="2660685" form="Годы" lemma="ГОД" part-of-speech="Nb" morphology="-p---mn--i" head-id="2660688" relation="sub" presentation-after=", "/>
+        <token id="2660686" form="годы" lemma="ГОД" part-of-speech="Nb" morphology="-p---mn--i" head-id="2660689" relation="sub" presentation-after="… "/>
+        <token id="2660687" empty-token-sort="C" relation="pred"/>
+        <token id="2660688" empty-token-sort="V" head-id="2660687" relation="pred"/>
+        <token id="2660689" empty-token-sort="V" head-id="2660687" relation="pred"/>
+      </sentence>
+      <sentence id="244679" status="annotated">
+        <token id="2660690" form="Несчетным" lemma="НЕСЧЕТНЫЙ" part-of-speech="A-" morphology="-s---nipwi" head-id="2660691" relation="atr" presentation-after=" "/>
+        <token id="2660691" form="количеством" lemma="КОЛИЧЕСТВО" part-of-speech="Nb" morphology="-s---ni--i" head-id="2660693" relation="ag" presentation-after=" "/>
+        <token id="2660692" form="ног" lemma="НОГА" part-of-speech="Nb" morphology="-p---fg--i" head-id="2660691" relation="atr" presentation-after=" "/>
+        <token id="2660693" form="стоптаны" lemma="СТАПТЫВАТЬ.pf" part-of-speech="V-" morphology="-puppxn-si" head-id="2660707" relation="xobj" presentation-after=" ">
+          <slash target-id="2660695" relation="xsub"/>
+        </token>
+        <token id="2660694" form="мраморные" lemma="МРАМОРНЫЙ" part-of-speech="A-" morphology="-p---xnpwi" head-id="2660695" relation="atr" presentation-after=" "/>
+        <token id="2660695" form="ступени" lemma="СТУПЕНЬ" part-of-speech="Nb" morphology="-p---fn--i" head-id="2660707" relation="sub" presentation-after=", "/>
+        <token id="2660696" form="обрушилась" lemma="ОБРУШИВАТЬСЯ.pf" part-of-speech="V-" morphology="-sspmfn-si" head-id="2660706" relation="pred" presentation-after=" "/>
+        <token id="2660697" form="штукатурка" lemma="ШТУКАТУРКА" part-of-speech="Nb" morphology="-s---fn--i" head-id="2660696" relation="sub" presentation-after=" "/>
+        <token id="2660698" form="со" lemma="С" part-of-speech="R-" morphology="---------n" head-id="2660696" relation="adv" presentation-after=" "/>
+        <token id="2660699" form="стен" lemma="СТЕНА" part-of-speech="Nb" morphology="-p---fg--i" head-id="2660700" relation="obl" presentation-after=" "/>
+        <token id="2660700" form="и" lemma="И" part-of-speech="C-" morphology="---------n" head-id="2660698" relation="obl" presentation-after=" "/>
+        <token id="2660701" form="потолков" lemma="ПОТОЛОК" part-of-speech="Nb" morphology="-p---mg--i" head-id="2660700" relation="obl" presentation-after=", "/>
+        <token id="2660702" form="покосились" lemma="ПОКОСИТЬСЯ.pf" part-of-speech="V-" morphology="-pspmxn-si" head-id="2660706" relation="pred" presentation-after=" "/>
+        <token id="2660703" form="некогда" lemma="НЕКОГДА" part-of-speech="Df" morphology="---------n" head-id="2660704" relation="aux" presentation-after=" "/>
+        <token id="2660704" form="нарядные" lemma="НАРЯДНЫЙ" part-of-speech="A-" morphology="-p---xnpwi" head-id="2660705" relation="atr" presentation-after=" "/>
+        <token id="2660705" form="фасады" lemma="ФАСАД" part-of-speech="Nb" morphology="-p---mn--i" head-id="2660702" relation="sub" presentation-after=". "/>
+        <token id="2660706" empty-token-sort="C" relation="pred"/>
+        <token id="2660707" empty-token-sort="V" head-id="2660706" relation="pred"/>
+      </sentence>
+      <sentence id="244680" status="annotated">
+        <token id="2660708" form="Не" lemma="НЕ" part-of-speech="Df" morphology="---------n" head-id="2660709" relation="aux" presentation-after=" "/>
+        <token id="2660709" form="обошли" lemma="ОБХОДИТЬ.pf" part-of-speech="V-" morphology="-pspaxn-si" head-id="2660739" relation="pred" presentation-after=" "/>
+        <token id="2660710" form="стороной" lemma="СТОРОНА" part-of-speech="Nb" morphology="-s---fi--i" head-id="2660709" relation="adv" presentation-after=" "/>
+        <token id="2660711" form="больницу" lemma="БОЛЬНИЦА" part-of-speech="Nb" morphology="-s---fa--i" head-id="2660709" relation="obj" presentation-after=" "/>
+        <token id="2660712" form="и" lemma="И" part-of-speech="Df" morphology="---------n" head-id="2660717" relation="aux" presentation-after=" "/>
+        <token id="2660713" form="общие" lemma="ОБЩИЙ" part-of-speech="A-" morphology="-p---xnpwi" head-id="2660717" relation="atr" presentation-after=" "/>
+        <token id="2660714" form="для" lemma="ДЛЯ" part-of-speech="R-" morphology="---------n" head-id="2660713" relation="obl" presentation-after=" "/>
+        <token id="2660715" form="нашего" lemma="НАШ" part-of-speech="Ps" morphology="1s---ng--i" head-id="2660716" relation="atr" presentation-after=" "/>
+        <token id="2660716" form="здравоохранения" lemma="ЗДРАВООХРАНЕНИЕ" part-of-speech="Nb" morphology="-s---ng--i" head-id="2660714" relation="obl" presentation-after=" "/>
+        <token id="2660717" form="беды" lemma="БЕДА" part-of-speech="Nb" morphology="-p---fn--i" head-id="2660709" relation="sub" presentation-after=" - "/>
+        <token id="2660718" form="слабость" lemma="СЛАБОСТЬ" part-of-speech="Nb" morphology="-s---fn--i" head-id="2660738" relation="apos" presentation-after=" "/>
+        <token id="2660719" form="материально-технической" lemma="МАТЕРИАЛЬНО-ТЕХНИЧЕСКИЙ" part-of-speech="A-" morphology="-s---fgpwi" head-id="2660720" relation="atr" presentation-after=" "/>
+        <token id="2660720" form="базы" lemma="БАЗА" part-of-speech="Nb" morphology="-s---fg--i" head-id="2660718" relation="atr" presentation-after=", "/>
+        <token id="2660721" form="неукомплектованность" lemma="НЕУКОМПЛЕКТОВАННОСТЬ" part-of-speech="Nb" morphology="-s---fn--i" head-id="2660738" relation="apos" presentation-after=" "/>
+        <token id="2660722" form="медицинским" lemma="МЕДИЦИНСКИЙ" part-of-speech="A-" morphology="-s---mipwi" head-id="2660723" relation="atr" presentation-after=" "/>
+        <token id="2660723" form="персоналом" lemma="ПЕРСОНАЛ" part-of-speech="Nb" morphology="-s---mi--i" head-id="2660721" relation="atr" presentation-after=", "/>
+        <token id="2660724" form="другими" lemma="ДРУГОЙ" part-of-speech="A-" morphology="-p---xipwi" head-id="2660725" relation="atr" presentation-after=" "/>
+        <token id="2660725" form="словами" lemma="СЛОВО" part-of-speech="Nb" morphology="-p---ni--i" head-id="2660741" relation="sub" presentation-after=", "/>
+        <token id="2660726" form="повсюду" lemma="ПОВСЮДУ" part-of-speech="Df" morphology="---------n" head-id="2660727" relation="adv" presentation-after=" "/>
+        <token id="2660727" form="проступает" lemma="ПРОСТУПАТЬ.ipf" part-of-speech="V-" morphology="3spia----i" head-id="2660739" relation="pred" presentation-after=" "/>
+        <token id="2660728" form="отношение" lemma="ОТНОШЕНИЕ" part-of-speech="Nb" morphology="-s---nn--i" head-id="2660727" relation="sub" presentation-after=" "/>
+        <token id="2660729" form="к" lemma="К" part-of-speech="R-" morphology="---------n" head-id="2660728" relation="narg" presentation-after=" "/>
+        <token id="2660730" form="медицине" lemma="МЕДИЦИНА" part-of-speech="Nb" morphology="-s---fd--i" head-id="2660729" relation="obl" presentation-after=" "/>
+        <token id="2660731" form="как" lemma="КАК" part-of-speech="Df" morphology="---------n" head-id="2660728" relation="narg" presentation-after=" "/>
+        <token id="2660732" form="к" lemma="К" part-of-speech="R-" morphology="---------n" head-id="2660731" relation="obl" presentation-after=" "/>
+        <token id="2660733" form="непроизводительной" lemma="НЕПРОИЗВОДИТЕЛЬНЫЙ" part-of-speech="A-" morphology="-s---fdpwi" head-id="2660740" relation="atr" presentation-after=", "/>
+        <token id="2660734" form="убыточной" lemma="УБЫТОЧНЫЙ" part-of-speech="A-" morphology="-s---fdpwi" head-id="2660740" relation="atr" presentation-after=" "/>
+        <token id="2660735" form="сфере" lemma="СФЕРА" part-of-speech="Nb" morphology="-s---fd--i" head-id="2660732" relation="obl" presentation-after=" "/>
+        <token id="2660736" form="нашего" lemma="НАШ" part-of-speech="Ps" morphology="1s---ng--i" head-id="2660737" relation="atr" presentation-after=" "/>
+        <token id="2660737" form="общества" lemma="ОБЩЕСТВО" part-of-speech="Nb" morphology="-s---ng--i" head-id="2660735" relation="atr" presentation-after=". "/>
+        <token id="2660738" empty-token-sort="C" head-id="2660717" relation="apos"/>
+        <token id="2660739" empty-token-sort="C" relation="pred"/>
+        <token id="2660740" empty-token-sort="C" head-id="2660735" relation="atr"/>
+        <token id="2660741" empty-token-sort="V" relation="parpred"/>
+      </sentence>
+      <sentence id="244681" status="annotated">
+        <token id="2660742" form="Об" lemma="О" part-of-speech="R-" morphology="---------n" head-id="2660744" relation="obl" presentation-after=" "/>
+        <token id="2660743" form="этом" lemma="ЭТО" part-of-speech="Pd" morphology="-s---nl--i" head-id="2660742" relation="obl" presentation-after=" "/>
+        <token id="2660744" form="думалось" lemma="ДУМАТЬСЯ.ipf" part-of-speech="V-" morphology="-sspmnn-si" relation="pred" presentation-after=", "/>
+        <token id="2660745" form="когда" lemma="КОГДА" part-of-speech="Dq" morphology="---------n" head-id="2660747" relation="adv" presentation-after=" "/>
+        <token id="2660746" form="мы" lemma="МЫ" part-of-speech="Pp" morphology="1p---xn--i" head-id="2660747" relation="sub" presentation-after=" "/>
+        <token id="2660747" form="ходили" lemma="ХОДИТЬ.ipf" part-of-speech="V-" morphology="-pspaxn-si" head-id="2660744" relation="adv" presentation-after=" "/>
+        <token id="2660748" form="с" lemma="С" part-of-speech="R-" morphology="---------n" head-id="2660747" relation="adv" presentation-after=" "/>
+        <token id="2660749" form="протоиереями" lemma="ПРОТОИЕРЕЙ" part-of-speech="Nb" morphology="-p---mi--i" head-id="2660748" relation="obl" presentation-after=" "/>
+        <token id="2660750" form="Елоховской" lemma="ЕЛОХОВСКИЙ" part-of-speech="A-" morphology="-s---fgpwi" head-id="2660751" relation="atr" presentation-after=" "/>
+        <token id="2660751" form="церкви" lemma="ЦЕРКОВЬ" part-of-speech="Nb" morphology="-s---fg--i" head-id="2660749" relation="atr" presentation-after=" "/>
+        <token id="2660752" form="Николаем" lemma="НИКОЛАЙ" part-of-speech="Ne" morphology="-s---mi--i" head-id="2660755" relation="apos" presentation-after=", "/>
+        <token id="2660753" form="Герасимом" lemma="ГЕРАСИМ" part-of-speech="Ne" morphology="-s---mi--i" head-id="2660755" relation="apos" presentation-after=", "/>
+        <token id="2660754" form="Даминианом" lemma="ДАМИНИАН" part-of-speech="Ne" morphology="-s---mi--i" head-id="2660755" relation="apos" presentation-after=" "/>
+        <token id="2660755" form="и" lemma="И" part-of-speech="C-" morphology="---------n" head-id="2660749" relation="apos" presentation-after=" "/>
+        <token id="2660756" form="главным" lemma="ГЛАВНЫЙ" part-of-speech="A-" morphology="-s---mipwi" head-id="2660757" relation="atr" presentation-after=" "/>
+        <token id="2660757" form="врачом" lemma="ВРАЧ" part-of-speech="Nb" morphology="-s---mi--i" head-id="2660755" relation="apos" presentation-after=" "/>
+        <token id="2660758" form="А." lemma="А." part-of-speech="Ne" morphology="-s---mi--i" head-id="2660760" relation="apos" presentation-after=" "/>
+        <token id="2660759" form="Н." lemma="Н." part-of-speech="Ne" morphology="-s---mi--i" head-id="2660758" relation="apos" presentation-after=" "/>
+        <token id="2660760" form="Соловьевым" lemma="СОЛОВЬЕВ" part-of-speech="Ne" morphology="-s---mi--i" head-id="2660757" relation="apos" presentation-after=" "/>
+        <token id="2660761" form="по" lemma="ПО" part-of-speech="R-" morphology="---------n" head-id="2660747" relation="obl" presentation-after=" "/>
+        <token id="2660762" form="корпусам" lemma="КОРПУС" part-of-speech="Nb" morphology="-p---md--i" head-id="2660761" relation="obl" presentation-after=" "/>
+        <token id="2660763" form="больницы" lemma="БОЛЬНИЦА" part-of-speech="Nb" morphology="-s---fg--i" head-id="2660762" relation="atr" presentation-after=". "/>
+      </sentence>
+      <sentence id="244682" status="unannotated">
+        <token id="2660764" form="В" lemma="В" part-of-speech="R-" morphology="---------n" head-id="2660766" relation="adv" presentation-after=" "/>
+        <token id="2660765" form="палатах" lemma="ПАЛАТА" part-of-speech="Nb" morphology="-p---fl--i" head-id="2660764" relation="obl" presentation-after=" "/>
+        <token id="2660766" form="спрашиваем" lemma="СПРАШИВАТЬ.ipf" part-of-speech="V-" morphology="1ppia----i" relation="pred" presentation-after=" "/>
+        <token id="2660767" form="больных" lemma="БОЛЬНОЙ" part-of-speech="Nb" morphology="-p---ma--i" head-id="2660781" relation="obj" presentation-after=", "/>
+        <token id="2660768" form="их" lemma="ОНИ" part-of-speech="Pp" morphology="3p---xg--i" head-id="2660769" relation="atr" presentation-after=" "/>
+        <token id="2660769" form="родственников" lemma="РОДСТВЕННИК" part-of-speech="Nb" morphology="-p---ma--i" head-id="2660781" relation="obj" presentation-after=", "/>
+        <token id="2660770" form="как" lemma="КАК" part-of-speech="Du" morphology="---------n" head-id="2660772" relation="obl" presentation-after=" "/>
+        <token id="2660771" form="они" lemma="ОНИ" part-of-speech="Pp" morphology="3p---xn--i" head-id="2660772" relation="sub" presentation-after=" "/>
+        <token id="2660772" form="относятся" lemma="ОТНОСИТЬСЯ.ipf" part-of-speech="V-" morphology="3ppim----i" head-id="2660782" relation="obl" presentation-after=" "/>
+        <token id="2660773" form="к" lemma="К" part-of-speech="R-" morphology="---------n" head-id="2660772" relation="obl" presentation-after=" "/>
+        <token id="2660774" form="визиту" lemma="ВИЗИТ" part-of-speech="Nb" morphology="-s---md--i" head-id="2660773" relation="obl" presentation-after=" "/>
+        <token id="2660775" form="священников" lemma="СВЯЩЕННИК" part-of-speech="Nb" morphology="-p---mg--i" head-id="2660774" relation="atr" presentation-after=", "/>
+        <token id="2660776" form="согласны" lemma="СОГЛАСНЫЙ" part-of-speech="A-" morphology="-p---xnpsi" head-id="2660782" relation="obl" presentation-after=" "/>
+        <token id="2660777" form="ли" lemma="ЛИ" part-of-speech="Df" morphology="---------n" head-id="2660776" relation="aux" presentation-after=" "/>
+        <token id="2660778" form="принять" lemma="ПРИНИМАТЬ.pf" part-of-speech="V-" morphology="---na----i" head-id="2660776" relation="comp" presentation-after=" "/>
+        <token id="2660779" form="помощь" lemma="ПОМОЩЬ" part-of-speech="Nb" morphology="-s---fa--i" head-id="2660778" relation="obj" presentation-after=" "/>
+        <token id="2660780" form="верующих" lemma="ВЕРУЮЩИЙ" part-of-speech="Nb" morphology="-p---mg--i" head-id="2660779" relation="atr" presentation-after=". "/>
+        <token id="2660781" empty-token-sort="C" head-id="2660766" relation="obj"/>
+        <token id="2660782" empty-token-sort="C" head-id="2660766" relation="obl"/>
+      </sentence>
+      <sentence id="244683" status="annotated">
+        <token id="2660783" form="Признаться" lemma="ПРИЗНАВАТЬСЯ.pf" part-of-speech="V-" morphology="---nm----i" relation="parpred" presentation-after=", "/>
+        <token id="2660784" form="думали" lemma="ДУМАТЬ.ipf" part-of-speech="V-" morphology="-pspaxn-si" relation="pred" presentation-after=", "/>
+        <token id="2660785" form="что" lemma="ЧТО" part-of-speech="G-" morphology="---------n" head-id="2660784" relation="comp" presentation-after=" "/>
+        <token id="2660786" form="многие" lemma="МНОГИЕ" part-of-speech="A-" morphology="-p---xnpwi" head-id="2660787" relation="sub" presentation-after=" "/>
+        <token id="2660787" form="испугаются" lemma="ИСПУГАТЬСЯ.pf" part-of-speech="V-" morphology="3ppim----i" head-id="2660785" relation="pred" presentation-after=", "/>
+        <token id="2660788" form="увидев" lemma="ВИДЕТЬ.pf" part-of-speech="V-" morphology="--uda----i" head-id="2660787" relation="xadv" presentation-after=" ">
+          <slash target-id="2660786" relation="xsub"/>
+        </token>
+        <token id="2660789" form="в" lemma="В" part-of-speech="R-" morphology="---------n" head-id="2660788" relation="adv" presentation-after=" "/>
+        <token id="2660790" form="этом" lemma="ЭТОТ" part-of-speech="Pd" morphology="-s---ml--i" head-id="2660791" relation="atr" presentation-after=" "/>
+        <token id="2660791" form="визите" lemma="ВИЗИТ" part-of-speech="Nb" morphology="-s---ml--i" head-id="2660789" relation="obl" presentation-after=" "/>
+        <token id="2660792" form="плохое" lemma="ПЛОХОЙ" part-of-speech="A-" morphology="-s---napwi" head-id="2660793" relation="atr" presentation-after=" "/>
+        <token id="2660793" form="предзнаменование" lemma="ПРЕДЗНАМЕНОВАНИЕ" part-of-speech="Nb" morphology="-s---na--i" head-id="2660788" relation="obj" presentation-after=". "/>
+      </sentence>
+      <sentence id="244684" status="annotated">
+        <token id="2660794" form="Ничего" lemma="НИЧТО" part-of-speech="Px" morphology="-s---ng--i" head-id="2660796" relation="xobj" presentation-after=" ">
+          <slash target-id="2660796" relation="xsub"/>
+        </token>
+        <token id="2660795" form="подобного" lemma="ПОДОБНЫЙ" part-of-speech="A-" morphology="-s---ngpwi" head-id="2660794" relation="atr" presentation-after="! "/>
+        <token id="2660796" empty-token-sort="V" relation="pred"/>
+      </sentence>
+      <sentence id="244685" status="annotated">
+        <token id="2660797" form="Отказов" lemma="ОТКАЗ" part-of-speech="Nb" morphology="-p---mg--i" head-id="2660799" relation="sub" presentation-after=" "/>
+        <token id="2660798" form="не" lemma="НЕ" part-of-speech="Df" morphology="---------n" head-id="2660799" relation="aux" presentation-after=" "/>
+        <token id="2660799" form="было" lemma="БЫТЬ.ipf" part-of-speech="V-" morphology="-sspann-si" relation="pred" presentation-after=". "/>
+      </sentence>
+      <sentence id="244686" status="unannotated">
+        <token id="2660800" form="Да" lemma="ДА" part-of-speech="C-" morphology="---------n" presentation-after=" "/>
+        <token id="2660801" form="и" lemma="И" part-of-speech="Df" morphology="---------n" presentation-after=" "/>
+        <token id="2660802" form="не" lemma="НЕ" part-of-speech="Df" morphology="---------n" presentation-after=" "/>
+        <token id="2660803" form="о" lemma="О" part-of-speech="R-" morphology="---------n" presentation-after=" "/>
+        <token id="2660804" form="близком" lemma="БЛИЗКИЙ" part-of-speech="A-" morphology="-s---mlpwi" presentation-after=" "/>
+        <token id="2660805" form="конце" lemma="КОНЕЦ" part-of-speech="Nb" morphology="-s---ml--i" presentation-after=" "/>
+        <token id="2660806" form="говорил" lemma="ГОВОРИТЬ.ipf" part-of-speech="V-" morphology="-sspamn-si" presentation-after=" "/>
+        <token id="2660807" form="с" lemma="С" part-of-speech="R-" morphology="---------n" presentation-after=" "/>
+        <token id="2660808" form="измученной" lemma="ИЗМУЧИВАТЬ.pf" part-of-speech="V-" morphology="-suppfi-wi" presentation-after=" "/>
+        <token id="2660809" form="тяжким" lemma="ТЯЖКИЙ" part-of-speech="A-" morphology="-s---mipwi" presentation-after=" "/>
+        <token id="2660810" form="недугом" lemma="НЕДУГ" part-of-speech="Nb" morphology="-s---mi--i" presentation-after=" "/>
+        <token id="2660811" form="больной" lemma="БОЛЬНАЯ" part-of-speech="Nb" morphology="-s---fi--i" presentation-after=" "/>
+        <token id="2660812" form="Т." lemma="Т." part-of-speech="Ne" morphology="-s---fi--i" presentation-after=" "/>
+        <token id="2660813" form="отец" lemma="ОТЕЦ2" part-of-speech="Nb" morphology="-s---mn--i" presentation-after=" "/>
+        <token id="2660814" form="Николай" lemma="НИКОЛАЙ" part-of-speech="Ne" morphology="-s---mn--i" presentation-after=", "/>
+        <token id="2660815" form="а" lemma="А" part-of-speech="C-" morphology="---------n" presentation-after=" "/>
+        <token id="2660816" form="о" lemma="О" part-of-speech="R-" morphology="---------n" presentation-after=" "/>
+        <token id="2660817" form="жизни" lemma="ЖИЗНЬ" part-of-speech="Nb" morphology="-s---fl--i" presentation-after=" "/>
+        <token id="2660818" form="как" lemma="КАК" part-of-speech="Df" morphology="---------n" presentation-after=" "/>
+        <token id="2660819" form="величайшем" lemma="ВЕЛИЧАЙШИЙ" part-of-speech="A-" morphology="-s---mlpwi" presentation-after=" "/>
+        <token id="2660820" form="даре" lemma="ДАР" part-of-speech="Nb" morphology="-s---ml--i" presentation-after=", "/>
+        <token id="2660821" form="за" lemma="ЗА" part-of-speech="R-" morphology="---------n" presentation-after=" "/>
+        <token id="2660822" form="который" lemma="КОТОРЫЙ" part-of-speech="Pr" morphology="-s---ma--i" presentation-after=" "/>
+        <token id="2660823" form="надо" lemma="НАДО" part-of-speech="Df" morphology="---------n" presentation-after=" "/>
+        <token id="2660824" form="бороться" lemma="БОРОТЬСЯ.ipf" part-of-speech="V-" morphology="---nm----i" presentation-after=" "/>
+        <token id="2660825" form="всеми" lemma="ВЕСЬ" part-of-speech="Px" morphology="-p---xi--i" presentation-after=" "/>
+        <token id="2660826" form="силами" lemma="СИЛА" part-of-speech="Nb" morphology="-p---fi--i" presentation-after=" "/>
+        <token id="2660827" form="души" lemma="ДУША" part-of-speech="Nb" morphology="-s---fg--i" presentation-after=" "/>
+        <token id="2660828" form="до" lemma="ДО" part-of-speech="R-" morphology="---------n" presentation-after=" "/>
+        <token id="2660829" form="самого" lemma="САМЫЙ" part-of-speech="A-" morphology="-s---ngpwi" presentation-after=" "/>
+        <token id="2660830" form="последнего" lemma="ПОСЛЕДНИЙ" part-of-speech="A-" morphology="-s---ngpwi" presentation-after=" "/>
+        <token id="2660831" form="мгновения" lemma="МГНОВЕНИЕ" part-of-speech="Nb" morphology="-s---ng--i" presentation-after=". "/>
+      </sentence>
+      <sentence id="244687" status="annotated">
+        <token id="2660832" form="Святым" lemma="СВЯТОЙ" part-of-speech="A-" morphology="-s---nipwi" head-id="2660833" relation="atr" presentation-after=" "/>
+        <token id="2660833" form="делом" lemma="ДЕЛО" part-of-speech="Nb" morphology="-s---ni--i" head-id="2660834" relation="xobj" presentation-after=" ">
+          <slash target-id="2660835" relation="xsub"/>
+        </token>
+        <token id="2660834" form="назвал" lemma="НАЗЫВАТЬ.pf" part-of-speech="V-" morphology="-sspamn-si" relation="pred" presentation-after=" "/>
+        <token id="2660835" form="настоятель" lemma="НАСТОЯТЕЛЬ" part-of-speech="Nb" morphology="-s---mn--i" head-id="2660834" relation="sub" presentation-after=" "/>
+        <token id="2660836" form="Богоявленского" lemma="БОГОЯВЛЕНСКИЙ" part-of-speech="A-" morphology="-s---mgpwi" head-id="2660838" relation="atr" presentation-after=" "/>
+        <token id="2660837" form="патриаршего" lemma="ПАТРИАРШИЙ" part-of-speech="A-" morphology="-s---mgpwi" head-id="2660838" relation="atr" presentation-after=" "/>
+        <token id="2660838" form="собора" lemma="СОБОР" part-of-speech="Nb" morphology="-s---mg--i" head-id="2660835" relation="narg" presentation-after=" "/>
+        <token id="2660839" form="протопресвитер" lemma="ПРОТОПРЕСВИТЕР" part-of-speech="Nb" morphology="-s---mn--i" head-id="2660835" relation="apos" presentation-after=" "/>
+        <token id="2660840" form="Матвей" lemma="МАТВЕЙ" part-of-speech="Ne" morphology="-s---mn--i" head-id="2660839" relation="apos" presentation-after=" "/>
+        <token id="2660841" form="Саввич" lemma="САВВИЧ" part-of-speech="Ne" morphology="-s---mn--i" head-id="2660840" relation="apos" presentation-after=" "/>
+        <token id="2660842" form="Стаднюк" lemma="СТАДНЮК" part-of-speech="Ne" morphology="-s---mn--i" head-id="2660841" relation="apos" presentation-after=" "/>
+        <token id="2660843" form="помощь" lemma="ПОМОЩЬ" part-of-speech="Nb" morphology="-s---fa--i" head-id="2660834" relation="obj" presentation-after=" "/>
+        <token id="2660844" form="православной" lemma="ПРАВОСЛАВНЫЙ" part-of-speech="A-" morphology="-s---fgpwi" head-id="2660845" relation="atr" presentation-after=" "/>
+        <token id="2660845" form="церкви" lemma="ЦЕРКОВЬ" part-of-speech="Nb" morphology="-s---fg--i" head-id="2660843" relation="atr" presentation-after=" "/>
+        <token id="2660846" form="больницам" lemma="БОЛЬНИЦА" part-of-speech="Nb" morphology="-p---fd--i" head-id="2660843" relation="narg" presentation-after=". "/>
+      </sentence>
+      <sentence id="244688" status="annotated">
+        <token id="2660847" form="Матвей" lemma="МАТВЕЙ" part-of-speech="Nb" morphology="-s---mn--i" head-id="2660855" relation="sub" presentation-before="- " presentation-after=" "/>
+        <token id="2660848" form="Саввич" lemma="САВВИЧ" part-of-speech="Ne" morphology="-s---mn--i" head-id="2660847" relation="apos" presentation-after=", "/>
+        <token id="2660849" form="больница" lemma="БОЛЬНИЦА" part-of-speech="Nb" morphology="-s---fn--i" head-id="2660854" relation="sub" presentation-after=" "/>
+        <token id="2660850" form="рядом" lemma="РЯДОМ" part-of-speech="Df" morphology="---------n" head-id="2660854" relation="xobj" presentation-after=" ">
+          <slash target-id="2660849" relation="xsub"/>
+        </token>
+        <token id="2660851" form="с" lemma="С" part-of-speech="R-" morphology="---------n" head-id="2660850" relation="obl" presentation-after=" "/>
+        <token id="2660852" form="Елоховской" lemma="ЕЛОХОВСКИЙ" part-of-speech="A-" morphology="-s---fipwi" head-id="2660853" relation="atr" presentation-after=" "/>
+        <token id="2660853" form="церковью" lemma="ЦЕРКОВЬ" part-of-speech="Nb" morphology="-s---fi--i" head-id="2660851" relation="obl" presentation-after=". "/>
+        <token id="2660854" empty-token-sort="V" relation="pred"/>
+        <token id="2660855" empty-token-sort="V" relation="parpred"/>
+      </sentence>
+      <sentence id="244689" status="annotated">
+        <token id="2660856" form="Что" lemma="ЧТО" part-of-speech="Pi" morphology="-s---nn--i" head-id="2660859" relation="sub" presentation-after=" "/>
+        <token id="2660857" form="же" lemma="ЖЕ" part-of-speech="Df" morphology="---------n" head-id="2660856" relation="aux" presentation-after=" "/>
+        <token id="2660858" form="раньше" lemma="РАНЬШЕ" part-of-speech="Df" morphology="---------n" head-id="2660859" relation="adv" presentation-after=" "/>
+        <token id="2660859" form="сдерживало" lemma="СДЕРЖИВАТЬ.ipf" part-of-speech="V-" morphology="-sspann-si" relation="pred" presentation-after=" "/>
+        <token id="2660860" form="священников" lemma="СВЯЩЕННИК" part-of-speech="Nb" morphology="-p---ma--i" head-id="2660865" relation="obj" presentation-after=", "/>
+        <token id="2660861" form="прихожан" lemma="ПРИХОЖАНИН" part-of-speech="Nb" morphology="-p---ma--i" head-id="2660865" relation="obj" presentation-after=" "/>
+        <token id="2660862" form="от" lemma="ОТ" part-of-speech="R-" morphology="---------n" head-id="2660859" relation="obl" presentation-after=" "/>
+        <token id="2660863" form="помощи" lemma="ПОМОЩЬ" part-of-speech="Nb" morphology="-s---fg--i" head-id="2660862" relation="obl" presentation-after=" "/>
+        <token id="2660864" form="делом" lemma="ДЕЛО" part-of-speech="Nb" morphology="-s---ni--i" head-id="2660863" relation="narg" presentation-after="? "/>
+        <token id="2660865" empty-token-sort="C" head-id="2660859" relation="obj"/>
+      </sentence>
+      <sentence id="244690" status="annotated">
+        <token id="2660866" form="Если" lemma="ЕСЛИ" part-of-speech="G-" morphology="---------n" head-id="2660875" relation="adv" presentation-before="- " presentation-after=" "/>
+        <token id="2660867" form="вы" lemma="ВЫ" part-of-speech="Pp" morphology="2p---xn--i" head-id="2660869" relation="sub" presentation-after=" "/>
+        <token id="2660868" form="нас" lemma="МЫ" part-of-speech="Pp" morphology="1p---xa--i" head-id="2660870" relation="obj" presentation-after=" "/>
+        <token id="2660869" form="хотите" lemma="ХОТЕТЬ.ipf" part-of-speech="V-" morphology="2ppia----i" head-id="2660866" relation="pred" presentation-after=" "/>
+        <token id="2660870" form="назвать" lemma="НАЗЫВАТЬ.pf" part-of-speech="V-" morphology="---na----i" head-id="2660869" relation="xobj" presentation-after=" ">
+          <slash target-id="2660867" relation="xsub"/>
+        </token>
+        <token id="2660871" form="виноватыми" lemma="ВИНОВАТЫЙ" part-of-speech="A-" morphology="-p---xipwi" head-id="2660870" relation="xobj" presentation-after=" - ">
+          <slash target-id="2660870" relation="xsub"/>
+        </token>
+        <token id="2660872" form="полностью" lemma="ПОЛНОСТЬЮ" part-of-speech="Df" morphology="---------n" head-id="2660873" relation="aux" presentation-after=" "/>
+        <token id="2660873" form="согласиться" lemma="СОГЛАШАТЬСЯ.pf" part-of-speech="V-" morphology="---nm----i" head-id="2660875" relation="xobj" presentation-after=" ">
+          <slash target-id="2660875" relation="xsub"/>
+        </token>
+        <token id="2660874" form="не" lemma="НЕ" part-of-speech="Df" morphology="---------n" head-id="2660875" relation="aux" presentation-after=" "/>
+        <token id="2660875" form="могу" lemma="МОЧЬ.ipf" part-of-speech="V-" morphology="1spia----i" relation="pred" presentation-after=". "/>
+      </sentence>
+      <sentence id="244691" status="annotated">
+        <token id="2660876" form="Мы" lemma="МЫ" part-of-speech="Pp" morphology="1p---xn--i" head-id="2660878" relation="sub" presentation-after=" "/>
+        <token id="2660877" form="давно" lemma="ДАВНО" part-of-speech="Df" morphology="---------n" head-id="2660878" relation="adv" presentation-after=" "/>
+        <token id="2660878" form="взывали" lemma="ВЗЫВАТЬ.ipf" part-of-speech="V-" morphology="-pspaxn-si" head-id="2660895" relation="pred" presentation-after=" "/>
+        <token id="2660879" form="к" lemma="К" part-of-speech="R-" morphology="---------n" head-id="2660878" relation="obl" presentation-after=" "/>
+        <token id="2660880" form="различным" lemma="РАЗЛИЧНЫЙ" part-of-speech="A-" morphology="-p---xdpwi" head-id="2660881" relation="atr" presentation-after=" "/>
+        <token id="2660881" form="организациям" lemma="ОРГАНИЗАЦИЯ" part-of-speech="Nb" morphology="-p---fd--i" head-id="2660879" relation="obl" presentation-after=", "/>
+        <token id="2660882" form="хотели" lemma="ХОТЕТЬ.ipf" part-of-speech="V-" morphology="-pspaxn-si" head-id="2660895" relation="pred" presentation-after=" "/>
+        <token id="2660883" form="доказать" lemma="ДОКАЗЫВАТЬ.pf" part-of-speech="V-" morphology="---na----i" head-id="2660882" relation="xobj" presentation-after=", ">
+          <slash target-id="2660882" relation="xsub"/>
+        </token>
+        <token id="2660884" form="что" lemma="ЧТО" part-of-speech="G-" morphology="---------n" head-id="2660883" relation="comp" presentation-after=" "/>
+        <token id="2660885" form="во" lemma="В" part-of-speech="R-" morphology="---------n" head-id="2660896" relation="adv" presentation-after=" "/>
+        <token id="2660886" form="многих" lemma="МНОГИЕ" part-of-speech="A-" morphology="-p---xlpwi" head-id="2660887" relation="atr" presentation-after=" "/>
+        <token id="2660887" form="делах" lemma="ДЕЛО" part-of-speech="Nb" morphology="-p---nl--i" head-id="2660885" relation="obl" presentation-after=" "/>
+        <token id="2660888" form="мы" lemma="МЫ" part-of-speech="Pp" morphology="1p---xn--i" head-id="2660896" relation="sub" presentation-after=" "/>
+        <token id="2660889" form="не" lemma="НЕ" part-of-speech="Df" morphology="---------n" head-id="2660890" relation="aux" presentation-after=" "/>
+        <token id="2660890" form="просто" lemma="ПРОСТО" part-of-speech="Df" morphology="---------n" head-id="2660891" relation="atr" presentation-after=" "/>
+        <token id="2660891" form="попутчики" lemma="ПОПУТЧИК" part-of-speech="Nb" morphology="-p---mn--i" head-id="2660896" relation="xobj" presentation-after=", ">
+          <slash target-id="2660888" relation="xsub"/>
+        </token>
+        <token id="2660892" form="но" lemma="НО" part-of-speech="C-" morphology="---------n" head-id="2660884" relation="pred" presentation-after=" "/>
+        <token id="2660893" form="и" lemma="И" part-of-speech="Df" morphology="---------n" head-id="2660894" relation="aux" presentation-after=" "/>
+        <token id="2660894" form="союзники" lemma="СОЮЗНИК" part-of-speech="Nb" morphology="-p---mn--i" head-id="2660897" relation="sub" presentation-after=". "/>
+        <token id="2660895" empty-token-sort="C" relation="pred"/>
+        <token id="2660896" empty-token-sort="V" head-id="2660892" relation="pred"/>
+        <token id="2660897" empty-token-sort="V" head-id="2660892" relation="pred"/>
+      </sentence>
+      <sentence id="244692" status="annotated">
+        <token id="2660898" form="Ведь" lemma="ВЕДЬ" part-of-speech="Df" morphology="---------n" head-id="2660900" relation="aux" presentation-after=" "/>
+        <token id="2660899" form="мы" lemma="МЫ" part-of-speech="Pp" morphology="1p---xn--i" head-id="2660903" relation="sub" presentation-after=" "/>
+        <token id="2660900" form="часть" lemma="ЧАСТЬ" part-of-speech="Nb" morphology="-s---fn--i" head-id="2660903" relation="xobj" presentation-after=" ">
+          <slash target-id="2660899" relation="xsub"/>
+        </token>
+        <token id="2660901" form="социалистического" lemma="СОЦИАЛИСТИЧЕСКИЙ" part-of-speech="A-" morphology="-s---ngpwi" head-id="2660902" relation="atr" presentation-after=" "/>
+        <token id="2660902" form="общества" lemma="ОБЩЕСТВО" part-of-speech="Nb" morphology="-s---ng--i" head-id="2660900" relation="atr" presentation-after="! "/>
+        <token id="2660903" empty-token-sort="V" relation="pred"/>
+      </sentence>
+      <sentence id="244693" status="annotated">
+        <token id="2660904" form="Но" lemma="НО" part-of-speech="C-" morphology="---------n" head-id="2660911" relation="aux" presentation-after=" "/>
+        <token id="2660905" form="дальше" lemma="ДАЛЕКО" part-of-speech="Df" morphology="-------c-i" head-id="2660911" relation="obl" presentation-after=" "/>
+        <token id="2660906" form="ответа" lemma="ОТВЕТ" part-of-speech="Nb" morphology="-s---mg--i" head-id="2660905" relation="obl" presentation-after=" "/>
+        <token id="2660907" form="Вопрос" lemma="ВОПРОС" part-of-speech="Ne" morphology="-s---mn--i" head-id="2660908" relation="sub" presentation-before="&quot;" presentation-after=" "/>
+        <token id="2660908" form="изучается" lemma="ИЗУЧАТЬ.ipf" part-of-speech="V-" morphology="3spip----i" head-id="2660906" relation="narg" presentation-after="…&quot; "/>
+        <token id="2660909" form="дело" lemma="ДЕЛО" part-of-speech="Nb" morphology="-s---nn--i" head-id="2660911" relation="sub" presentation-after=" "/>
+        <token id="2660910" form="не" lemma="НЕ" part-of-speech="Df" morphology="---------n" head-id="2660911" relation="aux" presentation-after=" "/>
+        <token id="2660911" form="шло" lemma="ИДТИ.ipf" part-of-speech="V-" morphology="-sspann-si" relation="pred" presentation-after=". "/>
+      </sentence>
+      <sentence id="244694" status="annotated">
+        <token id="2660912" form="Выходить" lemma="ВЫХОДИТЬ.ipf" part-of-speech="V-" morphology="---na----i" head-id="2660917" relation="comp" presentation-after=" "/>
+        <token id="2660913" form="из" lemma="ИЗ" part-of-speech="R-" morphology="---------n" head-id="2660912" relation="obl" presentation-after=" "/>
+        <token id="2660914" form="застоя" lemma="ЗАСТОЙ" part-of-speech="Nb" morphology="-s---mg--i" head-id="2660913" relation="obl" presentation-after=" "/>
+        <token id="2660915" form="надо" lemma="НАДО" part-of-speech="Df" morphology="---------n" head-id="2660917" relation="xobj" presentation-after=" ">
+          <slash target-id="2660912" relation="xsub"/>
+        </token>
+        <token id="2660916" form="вместе" lemma="ВМЕСТЕ" part-of-speech="Df" morphology="---------n" head-id="2660917" relation="adv" presentation-after=". "/>
+        <token id="2660917" empty-token-sort="V" relation="pred"/>
+      </sentence>
+      <sentence id="244695" status="annotated">
+        <token id="2660918" form="Вот" lemma="ВОТ" part-of-speech="Df" morphology="---------n" head-id="2660922" relation="adv" presentation-after=" "/>
+        <token id="2660919" form="и" lemma="И" part-of-speech="Df" morphology="---------n" head-id="2660920" relation="aux" presentation-after=" "/>
+        <token id="2660920" form="мы" lemma="МЫ" part-of-speech="Pp" morphology="1p---xn--i" head-id="2660922" relation="sub" presentation-after=", "/>
+        <token id="2660921" form="священнослужители" lemma="СВЯЩЕННОСЛУЖИТЕЛЬ" part-of-speech="Nb" morphology="-p---mn--i" head-id="2660920" relation="apos" presentation-after=", "/>
+        <token id="2660922" form="стали" lemma="СТАТЬ.pf" part-of-speech="V-" morphology="-pspaxn-si" relation="pred" presentation-after=" "/>
+        <token id="2660923" form="настойчивее" lemma="НАСТОЙЧИВО" part-of-speech="Df" morphology="-------c-i" head-id="2660924" relation="adv" presentation-after=" "/>
+        <token id="2660924" form="требовать" lemma="ТРЕБОВАТЬ.ipf" part-of-speech="V-" morphology="---na----i" head-id="2660922" relation="xobj" presentation-after=" ">
+          <slash target-id="2660920" relation="xsub"/>
+        </token>
+        <token id="2660925" form="своего" lemma="СВОЙ" part-of-speech="Pt" morphology="3s---ng--i" head-id="2660926" relation="atr" presentation-after=" "/>
+        <token id="2660926" form="права" lemma="ПРАВО" part-of-speech="Nb" morphology="-s---ng--i" head-id="2660924" relation="obl" presentation-after=" "/>
+        <token id="2660927" form="на" lemma="НА" part-of-speech="R-" morphology="---------n" head-id="2660926" relation="atr" presentation-after=" "/>
+        <token id="2660928" form="участие" lemma="УЧАСТИЕ" part-of-speech="Nb" morphology="-s---na--i" head-id="2660927" relation="obl" presentation-after=" "/>
+        <token id="2660929" form="в" lemma="В" part-of-speech="R-" morphology="---------n" head-id="2660928" relation="narg" presentation-after=" "/>
+        <token id="2660930" form="делах" lemma="ДЕЛО" part-of-speech="Nb" morphology="-p---nl--i" head-id="2660929" relation="obl" presentation-after=" "/>
+        <token id="2660931" form="милосердия" lemma="МИЛОСЕРДИЕ" part-of-speech="Nb" morphology="-s---ng--i" head-id="2660930" relation="atr" presentation-after=". "/>
+      </sentence>
+      <sentence id="244696" status="annotated">
+        <token id="2660932" form="И" lemma="И" part-of-speech="C-" morphology="---------n" head-id="2660935" relation="aux" presentation-after=" "/>
+        <token id="2660933" form="наш" lemma="НАШ" part-of-speech="Ps" morphology="1s---mn--i" head-id="2660934" relation="atr" presentation-after=" "/>
+        <token id="2660934" form="голос" lemma="ГОЛОС" part-of-speech="Nb" morphology="-s---mn--i" head-id="2660935" relation="sub" presentation-after=" "/>
+        <token id="2660935" form="был" lemma="БЫТЬ.ipf" part-of-speech="V-" morphology="-sspamn-si" relation="pred" presentation-after=" "/>
+        <token id="2660936" form="услышан" lemma="СЛЫШАТЬ.pf" part-of-speech="V-" morphology="-suppmn-si" head-id="2660935" relation="xobj" presentation-after=". ">
+          <slash target-id="2660934" relation="xsub"/>
+        </token>
+      </sentence>
+      <sentence id="244697" status="annotated">
+        <token id="2660937" form="Но" lemma="НО" part-of-speech="C-" morphology="---------n" head-id="2660949" relation="aux" presentation-after=", "/>
+        <token id="2660938" form="честно" lemma="ЧЕСТНО" part-of-speech="Df" morphology="---------n" head-id="2660939" relation="adv" presentation-after=" "/>
+        <token id="2660939" form="говоря" lemma="ГОВОРИТЬ.ipf" part-of-speech="V-" morphology="--pda----i" head-id="2660954" relation="xobj" presentation-after=", ">
+          <slash target-id="2660954" relation="xsub"/>
+        </token>
+        <token id="2660940" form="до" lemma="ДО" part-of-speech="R-" morphology="---------n" head-id="2660949" relation="adv" presentation-after=" "/>
+        <token id="2660941" form="встречи" lemma="ВСТРЕЧА" part-of-speech="Nb" morphology="-s---fg--i" head-id="2660940" relation="obl" presentation-after=" "/>
+        <token id="2660942" form="Михаила" lemma="МИХАИЛ" part-of-speech="Ne" morphology="-s---mg--i" head-id="2660941" relation="atr" presentation-after=" "/>
+        <token id="2660943" form="Сергеевича" lemma="СЕРГЕЕВИЧ" part-of-speech="Ne" morphology="-s---mg--i" head-id="2660942" relation="apos" presentation-after=" "/>
+        <token id="2660944" form="Горбачева" lemma="ГОРБАЧЕВ" part-of-speech="Ne" morphology="-s---mg--i" head-id="2660943" relation="apos" presentation-after=" "/>
+        <token id="2660945" form="с" lemma="С" part-of-speech="R-" morphology="---------n" head-id="2660941" relation="narg" presentation-after=" "/>
+        <token id="2660946" form="патриархом" lemma="ПАТРИАРХ" part-of-speech="Nb" morphology="-s---mi--i" head-id="2660945" relation="obl" presentation-after=" "/>
+        <token id="2660947" form="Пименом" lemma="ПИМЕН" part-of-speech="Ne" morphology="-s---mi--i" head-id="2660946" relation="apos" presentation-after=" "/>
+        <token id="2660948" form="все" lemma="ВСЕ" part-of-speech="Px" morphology="-p---xn--i" head-id="2660949" relation="sub" presentation-after=" "/>
+        <token id="2660949" form="сомневались" lemma="СОМНЕВАТЬСЯ.ipf" part-of-speech="V-" morphology="-pspmxn-si" relation="pred" presentation-after=" - "/>
+        <token id="2660950" form="поймут" lemma="ПОНИМАТЬ.pf" part-of-speech="V-" morphology="3ppia----i" relation="parpred" presentation-after=" "/>
+        <token id="2660951" form="ли" lemma="ЛИ" part-of-speech="Df" morphology="---------n" head-id="2660950" relation="aux" presentation-after=" "/>
+        <token id="2660952" form="нас" lemma="МЫ" part-of-speech="Pp" morphology="1p---xa--i" head-id="2660950" relation="obj" presentation-after=" "/>
+        <token id="2660953" form="правильно" lemma="ПРАВИЛЬНО" part-of-speech="Df" morphology="---------n" head-id="2660950" relation="adv" presentation-after=". "/>
+        <token id="2660954" empty-token-sort="V" relation="parpred"/>
+      </sentence>
+      <sentence id="244698" status="annotated">
+        <token id="2660955" form="Теперь" lemma="ТЕПЕРЬ" part-of-speech="Df" morphology="---------n" head-id="2660956" relation="adv" presentation-after=" "/>
+        <token id="2660956" form="чувствуем" lemma="ЧУВСТВОВАТЬ.ipf" part-of-speech="V-" morphology="1ppia----i" relation="pred" presentation-after=": "/>
+        <token id="2660957" form="пришло" lemma="ПРИХОДИТЬ.pf" part-of-speech="V-" morphology="-sspann-si" head-id="2660971" relation="parpred" presentation-after=" "/>
+        <token id="2660958" form="время" lemma="ВРЕМЯ" part-of-speech="Nb" morphology="-s---nn--i" head-id="2660957" relation="sub" presentation-after=" "/>
+        <token id="2660959" form="личного" lemma="ЛИЧНЫЙ" part-of-speech="A-" morphology="-s---ngpwi" head-id="2660960" relation="atr" presentation-after=" "/>
+        <token id="2660960" form="участия" lemma="УЧАСТИЕ" part-of-speech="Nb" morphology="-s---ng--i" head-id="2660958" relation="atr" presentation-after=" "/>
+        <token id="2660961" form="в" lemma="В" part-of-speech="R-" morphology="---------n" head-id="2660960" relation="narg" presentation-after=" "/>
+        <token id="2660962" form="служении" lemma="СЛУЖЕНИЕ" part-of-speech="Nb" morphology="-s---nl--i" head-id="2660961" relation="obl" presentation-after=" "/>
+        <token id="2660963" form="милосердию" lemma="МИЛОСЕРДИЕ" part-of-speech="Nb" morphology="-s---nd--i" head-id="2660962" relation="narg" presentation-after=", "/>
+        <token id="2660964" form="отныне" lemma="ОТНЫНЕ" part-of-speech="Df" morphology="---------n" head-id="2660972" relation="adv" presentation-after=" "/>
+        <token id="2660965" form="нужны" lemma="НУЖНЫЙ" part-of-speech="A-" morphology="-p---xnpsi" head-id="2660972" relation="xobj" presentation-after=" ">
+          <slash target-id="2660968" relation="xsub"/>
+        </token>
+        <token id="2660966" form="не" lemma="НЕ" part-of-speech="Df" morphology="---------n" head-id="2660967" relation="aux" presentation-after=" "/>
+        <token id="2660967" form="слова" lemma="СЛОВО" part-of-speech="Nb" morphology="-p---nn--i" head-id="2660968" relation="sub" presentation-after=", "/>
+        <token id="2660968" form="а" lemma="А" part-of-speech="C-" morphology="---------n" head-id="2660972" relation="sub" presentation-after=" "/>
+        <token id="2660969" form="конкретные" lemma="КОНКРЕТНЫЙ" part-of-speech="A-" morphology="-p---xnpwi" head-id="2660970" relation="atr" presentation-after=" "/>
+        <token id="2660970" form="действия" lemma="ДЕЙСТВИЕ" part-of-speech="Nb" morphology="-p---nn--i" head-id="2660968" relation="sub" presentation-after=". "/>
+        <token id="2660971" empty-token-sort="C" relation="parpred"/>
+        <token id="2660972" empty-token-sort="V" head-id="2660971" relation="parpred"/>
+      </sentence>
+      <sentence id="244699" status="annotated">
+        <token id="2660973" form="Этого" lemma="ЭТО" part-of-speech="Pd" morphology="-s---ng--i" head-id="2660974" relation="obl" presentation-after=" "/>
+        <token id="2660974" form="ждут" lemma="ЖДАТЬ.ipf" part-of-speech="V-" morphology="3ppia----i" relation="pred" presentation-after=" "/>
+        <token id="2660975" form="от" lemma="ОТ" part-of-speech="R-" morphology="---------n" head-id="2660974" relation="adv" presentation-after=" "/>
+        <token id="2660976" form="нас" lemma="МЫ" part-of-speech="Pp" morphology="1p---xg--i" head-id="2660975" relation="obl" presentation-after=" "/>
+        <token id="2660977" form="не" lemma="НЕ" part-of-speech="Df" morphology="---------n" head-id="2660978" relation="aux" presentation-after=" "/>
+        <token id="2660978" form="только" lemma="ТОЛЬКО" part-of-speech="Df" morphology="---------n" head-id="2660979" relation="aux" presentation-after=" "/>
+        <token id="2660979" form="верующие" lemma="ВЕРУЮЩИЙ" part-of-speech="Nb" morphology="-p---mn--i" head-id="2660980" relation="sub" presentation-after=", "/>
+        <token id="2660980" form="но" lemma="НО" part-of-speech="C-" morphology="---------n" head-id="2660974" relation="sub" presentation-after=" "/>
+        <token id="2660981" form="и" lemma="И" part-of-speech="Df" morphology="---------n" head-id="2660983" relation="aux" presentation-after=" "/>
+        <token id="2660982" form="все" lemma="ВЕСЬ" part-of-speech="Px" morphology="-s---nn--i" head-id="2660983" relation="atr" presentation-after=" "/>
+        <token id="2660983" form="общество" lemma="ОБЩЕСТВО" part-of-speech="Nb" morphology="-s---nn--i" head-id="2660980" relation="sub" presentation-after=", "/>
+        <token id="2660984" form="которое" lemma="КОТОРЫЙ" part-of-speech="Pr" morphology="-s---nn--i" head-id="2660985" relation="sub" presentation-after=" "/>
+        <token id="2660985" form="встало" lemma="ВСТАВАТЬ.pf" part-of-speech="V-" morphology="-sspann-si" head-id="2660983" relation="rel" presentation-after=" "/>
+        <token id="2660986" form="на" lemma="НА" part-of-speech="R-" morphology="---------n" head-id="2660985" relation="obl" presentation-after=" "/>
+        <token id="2660987" form="всеочищающий" lemma="ВСЕОЧИЩАЮЩИЙ" part-of-speech="A-" morphology="-s---mapwi" head-id="2660988" relation="atr" presentation-after=" "/>
+        <token id="2660988" form="путь" lemma="ПУТЬ" part-of-speech="Nb" morphology="-s---ma--i" head-id="2660986" relation="obl" presentation-after=" "/>
+        <token id="2660989" form="духовного" lemma="ДУХОВНЫЙ" part-of-speech="A-" morphology="-s---ngpwi" head-id="2660990" relation="atr" presentation-after=" "/>
+        <token id="2660990" form="обновления" lemma="ОБНОВЛЕНИЕ" part-of-speech="Nb" morphology="-s---ng--i" head-id="2660988" relation="atr" presentation-after=". "/>
+      </sentence>
+      <sentence id="244700" status="annotated">
+        <token id="2660991" form="Год" lemma="ГОД" part-of-speech="Nb" morphology="-s---ma--i" head-id="2660992" relation="obl" presentation-after=" "/>
+        <token id="2660992" form="назад" lemma="НАЗАД" part-of-speech="R-" morphology="---------n" head-id="2660994" relation="adv" presentation-after=" "/>
+        <token id="2660993" form="духовенство" lemma="ДУХОВЕНСТВО" part-of-speech="Nb" morphology="-s---nn--i" head-id="2660994" relation="sub" presentation-after=" "/>
+        <token id="2660994" form="обратилось" lemma="ОБРАЩАТЬСЯ.pf" part-of-speech="V-" morphology="-sspmnn-si" relation="pred" presentation-after=" "/>
+        <token id="2660995" form="с" lemma="С" part-of-speech="R-" morphology="---------n" head-id="2660994" relation="obl" presentation-after=" "/>
+        <token id="2660996" form="предложением" lemma="ПРЕДЛОЖЕНИЕ" part-of-speech="Nb" morphology="-s---ni--i" head-id="2660995" relation="obl" presentation-after=" "/>
+        <token id="2660997" form="помощи" lemma="ПОМОЩЬ" part-of-speech="Nb" morphology="-s---fg--i" head-id="2660996" relation="narg" presentation-after=" "/>
+        <token id="2660998" form="к" lemma="К" part-of-speech="R-" morphology="---------n" head-id="2660994" relation="obl" presentation-after=" "/>
+        <token id="2660999" form="Главному" lemma="ГЛАВНЫЙ" part-of-speech="A-" morphology="-s---ndpwi" head-id="2661000" relation="atr" presentation-after=" "/>
+        <token id="2661000" form="управлению" lemma="УПРАВЛЕНИЕ" part-of-speech="Nb" morphology="-s---nd--i" head-id="2660998" relation="obl" presentation-after=" "/>
+        <token id="2661001" form="здравоохранения" lemma="ЗДРАВООХРАНЕНИЕ" part-of-speech="Nb" morphology="-s---ng--i" head-id="2661000" relation="narg" presentation-after=" "/>
+        <token id="2661002" form="Мосгорисполкома" lemma="МОСГОРИСПОЛКОМ" part-of-speech="Ne" morphology="-s---mg--i" head-id="2661000" relation="atr" presentation-after=". "/>
+      </sentence>
+      <sentence id="244701" status="annotated">
+        <token id="2661003" form="Время" lemma="ВРЕМЯ" part-of-speech="Nb" morphology="-s---nn--i" head-id="2661004" relation="sub" presentation-after=" "/>
+        <token id="2661004" form="шло" lemma="ИДТИ.ipf" part-of-speech="V-" morphology="-sspann-si" relation="pred" presentation-after="… "/>
+      </sentence>
+      <sentence id="244702" status="annotated">
+        <token id="2661005" form="Что" lemma="ЧТО" part-of-speech="Pi" morphology="-s---na--i" head-id="2661007" relation="adv" presentation-after=" "/>
+        <token id="2661006" form="греха" lemma="ГРЕХ" part-of-speech="Nb" morphology="-s---mg--i" head-id="2661007" relation="obj" presentation-after=" "/>
+        <token id="2661007" form="таить" lemma="ТАИТЬ.ipf" part-of-speech="V-" morphology="---na----i" relation="parpred" presentation-after=", "/>
+        <token id="2661008" form="многие" lemma="МНОГИЕ" part-of-speech="A-" morphology="-p---xnpwi" head-id="2661009" relation="atr" presentation-after=" "/>
+        <token id="2661009" form="настоятели" lemma="НАСТОЯТЕЛЬ" part-of-speech="Nb" morphology="-p---mn--i" head-id="2661012" relation="sub" presentation-after=" "/>
+        <token id="2661010" form="московских" lemma="МОСКОВСКИЙ" part-of-speech="A-" morphology="-p---xgpwi" head-id="2661011" relation="atr" presentation-after=" "/>
+        <token id="2661011" form="храмов" lemma="ХРАМ" part-of-speech="Nb" morphology="-p---mg--i" head-id="2661009" relation="narg" presentation-after=" "/>
+        <token id="2661012" form="впали" lemma="ВПАДАТЬ.pf" part-of-speech="V-" morphology="-pspaxn-si" relation="pred" presentation-after=" "/>
+        <token id="2661013" form="в" lemma="В" part-of-speech="R-" morphology="---------n" head-id="2661012" relation="obl" presentation-after=" "/>
+        <token id="2661014" form="сомнение" lemma="СОМНЕНИЕ" part-of-speech="Nb" morphology="-s---na--i" head-id="2661013" relation="obl" presentation-after=". "/>
+      </sentence>
+      <sentence id="244703" status="annotated">
+        <token id="2661015" form="Перестройка" lemma="ПЕРЕСТРОЙКА" part-of-speech="Nb" morphology="-s---fn--i" head-id="2661025" relation="sub" presentation-before="&quot;" presentation-after=" "/>
+        <token id="2661016" form="перестройкой" lemma="ПЕРЕСТРОЙКА" part-of-speech="Nb" morphology="-s---fi--i" head-id="2661015" relation="aux" presentation-after=", "/>
+        <token id="2661017" form="а" lemma="А" part-of-speech="C-" morphology="---------n" relation="pred" presentation-after=" "/>
+        <token id="2661018" form="нас" lemma="МЫ" part-of-speech="Pp" morphology="1p---xa--i" head-id="2661024" relation="obj" presentation-after=" "/>
+        <token id="2661019" form="опять" lemma="ОПЯТЬ" part-of-speech="Df" morphology="---------n" head-id="2661024" relation="adv" presentation-after=" "/>
+        <token id="2661020" form="на" lemma="НА" part-of-speech="R-" morphology="---------n" head-id="2661024" relation="obl" presentation-after=" "/>
+        <token id="2661021" form="порог" lemma="ПОРОГ" part-of-speech="Nb" morphology="-s---ma--i" head-id="2661020" relation="obl" presentation-after=" "/>
+        <token id="2661022" form="больниц" lemma="БОЛЬНИЦА" part-of-speech="Nb" morphology="-p---fg--i" head-id="2661021" relation="atr" presentation-after=" "/>
+        <token id="2661023" form="не" lemma="НЕ" part-of-speech="Df" morphology="---------n" head-id="2661024" relation="aux" presentation-after=" "/>
+        <token id="2661024" form="пустят" lemma="ПУСКАТЬ.pf" part-of-speech="V-" morphology="3ppia----i" head-id="2661017" relation="pred" presentation-after=". "/>
+        <token id="2661025" empty-token-sort="V" head-id="2661017" relation="pred"/>
+      </sentence>
+      <sentence id="244704" status="annotated">
+        <token id="2661026" form="Отвергнут" lemma="ОТВЕРГАТЬ.pf" part-of-speech="V-" morphology="3ppia----i" relation="pred" presentation-after=" "/>
+        <token id="2661027" form="протянутую" lemma="ПРОТЯГИВАТЬ.pf" part-of-speech="V-" morphology="-suppfa-wi" head-id="2661028" relation="atr" presentation-after=" "/>
+        <token id="2661028" form="руку" lemma="РУКА" part-of-speech="Nb" morphology="-s---fa--i" head-id="2661026" relation="obj" presentation-after="…&quot; "/>
+      </sentence>
+      <sentence id="244705" status="annotated">
+        <token id="2661029" form="Протянутая" lemma="ПРОТЯГИВАТЬ.pf" part-of-speech="V-" morphology="-suppfn-wi" head-id="2661030" relation="atr" presentation-after=" "/>
+        <token id="2661030" form="рука" lemma="РУКА" part-of-speech="Nb" morphology="-s---fn--i" head-id="2661035" relation="sub" presentation-after=" "/>
+        <token id="2661031" form="на" lemma="НА" part-of-speech="R-" morphology="---------n" head-id="2661035" relation="adv" presentation-after=" "/>
+        <token id="2661032" form="этот" lemma="ЭТОТ" part-of-speech="Pd" morphology="-s---ma--i" head-id="2661033" relation="atr" presentation-after=" "/>
+        <token id="2661033" form="раз" lemma="РАЗ" part-of-speech="Nb" morphology="-s---ma--i" head-id="2661031" relation="obl" presentation-after=" "/>
+        <token id="2661034" form="не" lemma="НЕ" part-of-speech="Df" morphology="---------n" head-id="2661035" relation="aux" presentation-after=" "/>
+        <token id="2661035" form="была" lemma="БЫТЬ.ipf" part-of-speech="V-" morphology="-sspafn-si" relation="pred" presentation-after=" "/>
+        <token id="2661036" form="отвергнута" lemma="ОТВЕРГАТЬ.pf" part-of-speech="V-" morphology="-suppfn-si" head-id="2661035" relation="xobj" presentation-after=". ">
+          <slash target-id="2661030" relation="xsub"/>
+        </token>
+      </sentence>
+      <sentence id="244706" status="annotated">
+        <token id="2661037" form="В" lemma="В" part-of-speech="R-" morphology="---------n" head-id="2661041" relation="adv" presentation-after=" "/>
+        <token id="2661038" form="июне" lemma="ИЮНЬ" part-of-speech="Nb" morphology="-s---ml--i" head-id="2661037" relation="obl" presentation-after=" "/>
+        <token id="2661039" form="в" lemma="В" part-of-speech="R-" morphology="---------n" head-id="2661041" relation="obl" presentation-after=" "/>
+        <token id="2661040" form="печати" lemma="ПЕЧАТЬ" part-of-speech="Nb" morphology="-s---fl--i" head-id="2661039" relation="obl" presentation-after=" "/>
+        <token id="2661041" form="появилось" lemma="ПОЯВЛЯТЬСЯ.pf" part-of-speech="V-" morphology="-sspmnn-si" relation="pred" presentation-after=" "/>
+        <token id="2661042" form="разъяснение" lemma="РАЗЪЯСНЕНИЕ" part-of-speech="Nb" morphology="-s---nn--i" head-id="2661041" relation="sub" presentation-after=" "/>
+        <token id="2661043" form="начальника" lemma="НАЧАЛЬНИК" part-of-speech="Nb" morphology="-s---mg--i" head-id="2661042" relation="atr" presentation-after=" "/>
+        <token id="2661044" form="Главного" lemma="ГЛАВНЫЙ" part-of-speech="A-" morphology="-s---ngpwi" head-id="2661045" relation="atr" presentation-after=" "/>
+        <token id="2661045" form="управления" lemma="УПРАВЛЕНИЕ" part-of-speech="Nb" morphology="-s---ng--i" head-id="2661043" relation="narg" presentation-after=" "/>
+        <token id="2661046" form="лечебно" lemma="ЛЕЧЕБНЫЙ" part-of-speech="A-" morphology="-s---xxpwi" head-id="2661047" relation="atr" presentation-after="-"/>
+        <token id="2661047" form="профилактической" lemma="ПРОФИЛАКТИЧЕСКИЙ" part-of-speech="A-" morphology="-s---fgpwi" head-id="2661048" relation="atr" presentation-after=" "/>
+        <token id="2661048" form="помощи" lemma="ПОМОЩЬ" part-of-speech="Nb" morphology="-s---fg--i" head-id="2661045" relation="narg" presentation-after=" "/>
+        <token id="2661049" form="минздрава" lemma="МИНЗДРАВ" part-of-speech="Nb" morphology="-s---mg--i" head-id="2661045" relation="atr" presentation-after=" "/>
+        <token id="2661050" form="СССР" lemma="СССР" part-of-speech="Ne" morphology="-s---mg--i" head-id="2661049" relation="atr" presentation-after=": "/>
+        <token id="2661051" form="органы" lemma="ОРГАН" part-of-speech="Nb" morphology="-p---mn--i" head-id="2661053" relation="sub" presentation-after=" "/>
+        <token id="2661052" form="здравоохранения" lemma="ЗДРАВООХРАНЕНИЕ" part-of-speech="Nb" morphology="-s---ng--i" head-id="2661051" relation="atr" presentation-after=" "/>
+        <token id="2661053" form="примут" lemma="ПРИНИМАТЬ.pf" part-of-speech="V-" morphology="3ppia----i" head-id="2661042" relation="apos" presentation-after=" "/>
+        <token id="2661054" form="помощь" lemma="ПОМОЩЬ" part-of-speech="Nb" morphology="-s---fa--i" head-id="2661053" relation="obj" presentation-after=" "/>
+        <token id="2661055" form="верующих" lemma="ВЕРУЮЩИЙ" part-of-speech="Nb" morphology="-p---mg--i" head-id="2661054" relation="atr" presentation-after=" "/>
+        <token id="2661056" form="в" lemma="В" part-of-speech="R-" morphology="---------n" head-id="2661054" relation="narg" presentation-after=" "/>
+        <token id="2661057" form="выхаживании" lemma="ВЫХАЖИВАНИЕ" part-of-speech="Nb" morphology="-s---nl--i" head-id="2661056" relation="obl" presentation-after=" "/>
+        <token id="2661058" form="больных" lemma="БОЛЬНОЙ" part-of-speech="Nb" morphology="-p---mg--i" head-id="2661057" relation="narg" presentation-after=" - "/>
+        <token id="2661059" form="в" lemma="В" part-of-speech="R-" morphology="---------n" head-id="2661054" relation="atr" presentation-after=" "/>
+        <token id="2661060" form="любой" lemma="ЛЮБОЙ" part-of-speech="A-" morphology="-s---flpwi" head-id="2661062" relation="atr" presentation-after=" "/>
+        <token id="2661061" form="предложенной" lemma="ПРЕДЛАГАТЬ.pf" part-of-speech="V-" morphology="-suppfl-wi" head-id="2661062" relation="atr" presentation-after=" "/>
+        <token id="2661062" form="форме" lemma="ФОРМА" part-of-speech="Nb" morphology="-s---fl--i" head-id="2661059" relation="obl" presentation-after=". "/>
+      </sentence>
+      <sentence id="244707" status="annotated">
+        <token id="2661063" form="Звоним" lemma="ЗВОНИТЬ.ipf" part-of-speech="V-" morphology="1ppia----i" relation="pred" presentation-after=" "/>
+        <token id="2661064" form="в" lemma="В" part-of-speech="R-" morphology="---------n" head-id="2661063" relation="obl" presentation-after=" "/>
+        <token id="2661065" form="Ленинград" lemma="ЛЕНИНГРАД" part-of-speech="Ne" morphology="-s---ma--i" head-id="2661064" relation="obl" presentation-after=" "/>
+        <token id="2661066" form="ректору" lemma="РЕКТОР" part-of-speech="Nb" morphology="-s---md--i" head-id="2661063" relation="obl" presentation-after=" "/>
+        <token id="2661067" form="духовной" lemma="ДУХОВНЫЙ" part-of-speech="A-" morphology="-s---fgpwi" head-id="2661068" relation="atr" presentation-after=" "/>
+        <token id="2661068" form="академии" lemma="АКАДЕМИЯ" part-of-speech="Nb" morphology="-s---fg--i" head-id="2661066" relation="atr" presentation-after=" "/>
+        <token id="2661069" form="профессору" lemma="ПРОФЕССОР" part-of-speech="Nb" morphology="-s---md--i" head-id="2661066" relation="apos" presentation-after=" - "/>
+        <token id="2661070" form="протоиерею" lemma="ПРОТОИЕРЕЙ" part-of-speech="Nb" morphology="-s---md--i" head-id="2661069" relation="apos" presentation-after=" "/>
+        <token id="2661071" form="Владимиру" lemma="ВЛАДИМИР" part-of-speech="Ne" morphology="-s---md--i" head-id="2661070" relation="apos" presentation-after=" "/>
+        <token id="2661072" form="Сорокину" lemma="СОРОКИН" part-of-speech="Ne" morphology="-s---md--i" head-id="2661071" relation="apos" presentation-after=". "/>
+      </sentence>
+      <sentence id="244708" status="annotated">
+        <token id="2661073" form="На" lemma="НА" part-of-speech="R-" morphology="---------n" head-id="2661078" relation="obl" presentation-before="- " presentation-after=" "/>
+        <token id="2661074" form="наш" lemma="НАШ" part-of-speech="Ps" morphology="1s---ma--i" head-id="2661075" relation="atr" presentation-after=" "/>
+        <token id="2661075" form="призыв" lemma="ПРИЗЫВ" part-of-speech="Nb" morphology="-s---ma--i" head-id="2661073" relation="obl" presentation-after=" "/>
+        <token id="2661076" form="о" lemma="О" part-of-speech="R-" morphology="---------n" head-id="2661075" relation="narg" presentation-after=" "/>
+        <token id="2661077" form="милосердии" lemma="МИЛОСЕРДИЕ" part-of-speech="Nb" morphology="-s---nl--i" head-id="2661076" relation="obl" presentation-after=" "/>
+        <token id="2661078" form="откликнулось" lemma="ОТКЛИКАТЬСЯ.pf" part-of-speech="V-" morphology="-sspmnn-si" head-id="2661082" relation="pred" presentation-after=" "/>
+        <token id="2661079" form="около" lemma="ОКОЛО" part-of-speech="R-" morphology="---------n" head-id="2661078" relation="sub" presentation-after=" "/>
+        <token id="2661080" form="четырехсот" lemma="ЧЕТЫРЕСТА" part-of-speech="Ma" morphology="-x---xg--i" head-id="2661081" relation="atr" presentation-after=" "/>
+        <token id="2661081" form="человек" lemma="ЧЕЛОВЕК" part-of-speech="Nb" morphology="-p---mg--i" head-id="2661079" relation="obl" presentation-after=", "/>
+        <token id="2661082" form="а" lemma="А" part-of-speech="C-" morphology="---------n" relation="pred" presentation-after=" "/>
+        <token id="2661083" form="в" lemma="В" part-of-speech="R-" morphology="---------n" head-id="2661086" relation="obl" presentation-after=" "/>
+        <token id="2661084" form="больнице" lemma="БОЛЬНИЦА" part-of-speech="Nb" morphology="-s---fl--i" head-id="2661083" relation="obl" presentation-after=" "/>
+        <token id="2661085" form="согласилось" lemma="СОГЛАШАТЬСЯ.pf" part-of-speech="V-" morphology="-sspmnn-si" head-id="2661082" relation="pred" presentation-after=" "/>
+        <token id="2661086" form="работать" lemma="РАБОТАТЬ.ipf" part-of-speech="V-" morphology="---na----i" head-id="2661085" relation="xobj" presentation-after=" ">
+          <slash target-id="2661088" relation="xsub"/>
+        </token>
+        <token id="2661087" form="всего" lemma="ВСЕГО" part-of-speech="Df" morphology="---------n" head-id="2661088" relation="adv" presentation-after=" "/>
+        <token id="2661088" form="четыре" lemma="ЧЕТЫРЕ" part-of-speech="Ma" morphology="-x---xn--i" head-id="2661085" relation="sub" presentation-after="… "/>
+      </sentence>
+      <sentence id="244709" status="annotated">
+        <token id="2661089" form="Ибо" lemma="ИБО" part-of-speech="G-" morphology="---------n" head-id="2661090" relation="aux" presentation-before="&quot;" presentation-after=" "/>
+        <token id="2661090" form="много" lemma="МНОГО" part-of-speech="Df" morphology="---------n" head-id="2661095" relation="xobj" presentation-after=" ">
+          <slash target-id="2661095" relation="xsub"/>
+        </token>
+        <token id="2661091" form="званых" lemma="ЗВАНЫЙ" part-of-speech="A-" morphology="-p---xgpwi" head-id="2661090" relation="part" presentation-after=", "/>
+        <token id="2661092" form="а" lemma="А" part-of-speech="C-" morphology="---------n" relation="pred" presentation-after=" "/>
+        <token id="2661093" form="мало" lemma="МАЛО" part-of-speech="Df" morphology="---------n" head-id="2661096" relation="xobj" presentation-after=" ">
+          <slash target-id="2661096" relation="xsub"/>
+        </token>
+        <token id="2661094" form="избранных" lemma="ИЗБИРАТЬ.pf" part-of-speech="V-" morphology="-puppxg-wi" head-id="2661093" relation="part" presentation-after="&quot;. "/>
+        <token id="2661095" empty-token-sort="V" head-id="2661092" relation="pred"/>
+        <token id="2661096" empty-token-sort="V" head-id="2661092" relation="pred"/>
+      </sentence>
+      <sentence id="244710" status="annotated">
+        <token id="2661097" form="Обзваниваем" lemma="ОБЗВАНИВАТЬ.ipf" part-of-speech="V-" morphology="1ppia----i" relation="pred" presentation-after=" "/>
+        <token id="2661098" form="несколько" lemma="НЕСКОЛЬКО" part-of-speech="Ma" morphology="-x---xa--i" head-id="2661097" relation="obj" presentation-after=" "/>
+        <token id="2661099" form="московских" lemma="МОСКОВСКИЙ" part-of-speech="A-" morphology="-p---xgpwi" head-id="2661100" relation="atr" presentation-after=" "/>
+        <token id="2661100" form="больниц" lemma="БОЛЬНИЦА" part-of-speech="Nb" morphology="-p---fg--i" head-id="2661098" relation="part" presentation-after=": "/>
+        <token id="2661101" form="6-ю" lemma="6-Й" part-of-speech="Mo" morphology="-s---fa--i" head-id="2661102" relation="atr" presentation-after=" "/>
+        <token id="2661102" form="Басманную" lemma="БАСМАННЫЙ" part-of-speech="A-" morphology="-s---fapwi" head-id="2661107" relation="apos" presentation-after=", "/>
+        <token id="2661103" form="Боткинскую" lemma="БОТКИНСКИЙ" part-of-speech="A-" morphology="-s---fapwi" head-id="2661107" relation="apos" presentation-after=", "/>
+        <token id="2661104" form="больницу" lemma="БОЛЬНИЦА" part-of-speech="Nb" morphology="-s---fa--i" head-id="2661107" relation="apos" presentation-after=" "/>
+        <token id="2661105" form="имени" lemma="ИМЯ" part-of-speech="Nb" morphology="-s---ng--i" head-id="2661104" relation="atr" presentation-after=" "/>
+        <token id="2661106" form="Кащенко" lemma="КАЩЕНКО" part-of-speech="Ne" morphology="-s---mg--i" head-id="2661105" relation="atr" presentation-after="… "/>
+        <token id="2661107" empty-token-sort="C" head-id="2661100" relation="apos"/>
+      </sentence>
+      <sentence id="244711" status="annotated">
+        <token id="2661108" form="Всюду" lemma="ВСЮДУ" part-of-speech="Df" morphology="---------n" head-id="2661116" relation="adv" presentation-after=" "/>
+        <token id="2661109" form="число" lemma="ЧИСЛО" part-of-speech="Nb" morphology="-s---nn--i" head-id="2661116" relation="sub" presentation-after=" "/>
+        <token id="2661110" form="верующих" lemma="ВЕРУЮЩИЙ" part-of-speech="Nb" morphology="-p---mg--i" head-id="2661109" relation="atr" presentation-after=", "/>
+        <token id="2661111" form="ухаживающих" lemma="УХАЖИВАТЬ.ipf" part-of-speech="V-" morphology="-pppaxg-wi" head-id="2661110" relation="atr" presentation-after=" "/>
+        <token id="2661112" form="за" lemma="ЗА" part-of-speech="R-" morphology="---------n" head-id="2661111" relation="obl" presentation-after=" "/>
+        <token id="2661113" form="больными" lemma="БОЛЬНОЙ" part-of-speech="Nb" morphology="-p---mi--i" head-id="2661112" relation="obl" presentation-after=", "/>
+        <token id="2661114" form="пока" lemma="ПОКА" part-of-speech="Df" morphology="---------n" head-id="2661115" relation="aux" presentation-after=" "/>
+        <token id="2661115" form="невелико" lemma="НЕБОЛЬШОЙ" part-of-speech="A-" morphology="-s---nnpsi" head-id="2661116" relation="xobj" presentation-after=". ">
+          <slash target-id="2661109" relation="xsub"/>
+        </token>
+        <token id="2661116" empty-token-sort="V" relation="pred"/>
+      </sentence>
+    </div>
+  </source>
+</proiel>
