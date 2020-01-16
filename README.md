@@ -60,6 +60,7 @@ The following texts are included in this release of the treebank:
   Varlaam’s donation charter to the Xutyn monastery   | Old Russian                 | varlaam     | 148 tokens
   Vesti-Kuranty                                       | Old Russian                 | vest-kur    | 1154 tokens
   Zadonshchina                                        | Old Russian                 | zadon       | 2399 tokens
+  Conversion of the SynTagRus treebank                | Russian                     | syn-FILENAME | 892837 tokens
 
 (The 'size' column in the table above shows the number of annotated tokens in
 a text. The number of tokens will be slightly larger than the number of words
@@ -71,7 +72,7 @@ Please see the XML files for detailed metadata and a full list of contributors.
 Data formats
 ------------
 
-The texts are available on two formats:
+The texts (except the SynTagRus conversion) are available on two formats:
 
 1. PROIEL XML: These files are the authoritative source files and the only ones
 that contain all available annotation. They contain the complete morphological,
