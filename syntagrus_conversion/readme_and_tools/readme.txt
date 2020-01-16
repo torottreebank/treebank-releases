@@ -11,7 +11,9 @@ nonvroots.txt: ids of those sentences that do not have verb as a root in the ori
 
 dub_nargs.txt: the list of the tokens that were assigned a NARG relation which the converter finds dubious. Column 1: new id; Column 2: token id; column 3: the reason for the converter's doubt.
 
-flags.txt: this is a collection of various warnings produced by different methods in the conversion script. There is a scale (1-4) which shows how likely it is that the converted sentences contains an error and a scale (A-E) which shows how important the error can be (primarily for argument structure studies, since that's what the script was originally created for). "Minas Tirith filter" (the last-hope filter)  means that the final filter (applied after the conversion) finds an important error. "Tree erased" means that the Minas Tirith filter found an error that makes it impossible for the sentence to pass the TOROT validator; syntactic information is completely erased for such sentences (they are marked as "Unannotated" and will be listed in the "critical_flags.txt", too.)"
+flags.txt: a collection of various warnings produced by different methods in the conversion script. There is a scale (1-4) which shows how likely it is that the converted sentences contains an error and a scale (A-E) which shows how important the error can be (primarily for argument structure studies, since that's what the script was originally created for). "Minas Tirith filter" (the last-hope filter)  means that the final filter (applied after the conversion) finds an important error. "Tree erased" means that the Minas Tirith filter found an error that makes it impossible for the sentence to pass the TOROT validator; syntactic information is completely erased for such sentences (they are marked as "Unannotated" and will be listed in the "critical_flags.txt", too.)"
+
+wordstat.txt: word counts.
 
 CONVERSION TOOLS:
 convert.rb: the conversion script. See below for the instructions.
@@ -35,8 +37,8 @@ compare_aligned.rb: a script that compares two proiel-xml files of the same anno
 
 ruby compare_aligned.rb sample_gold.xml sample.xml
 
-sample.csv: the output of compare_aligned.rb run on sample_gold.xml and sample.xml
+compare.csv: the output of compare_aligned.rb run on sample_gold.xml and sample.xml
 
 compare.r: an R script that produces evaluation statistics on the basis of compare.csv (UAS, LAS, morphology, lemma, secondary dependency accuracy)
 
-2019-01-15
+2019-01-16
